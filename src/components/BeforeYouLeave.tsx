@@ -67,8 +67,8 @@ export default function BeforeYouLeave() {
             <p className="font-inter text-xs tracking-[0.25em] text-softIvory/40 uppercase not-italic">
               Whatever happens next —
             </p>
-            <p className="font-playfair text-xl md:text-2xl not-italic text-softIvory/70 tracking-widest uppercase">
-              GATE • Google • Microsoft • ISRO • AI • Or a completely unexpected path…
+            <p className="font-playfair text-lg sm:text-xl md:text-2xl not-italic text-warmGold/80 tracking-widest uppercase">
+              Endless Peace • Radiant Joy • Love that Never Leaves • A Path of Flowers ✨
             </p>
           </motion.div>
 
@@ -78,9 +78,9 @@ export default function BeforeYouLeave() {
 
           <motion.div variants={paragraphVariants} className="space-y-6 pt-4">
             <p className="font-playfair text-3xl md:text-4xl gold-gradient font-bold not-italic">
-              Your worth was never waiting for a job title or a rank.
+              You never had to prove your worth to anyone.
               <br />
-              It has always been part of who you are.
+              You are already more precious than words can ever hold.
             </p>
           </motion.div>
 

@@ -1,18 +1,38 @@
 'use client';
 
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { useEffect, useState } from 'react';
-import Image from 'next/image';
+import { useEffect, useState, useRef } from 'react';
 
 export default function HeroSection() {
   const [currentLine, setCurrentLine] = useState(0);
   const { scrollY } = useScroll();
   const yBg = useTransform(scrollY, [0, 800], [0, 150]);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   const lines = [
     "Some people walk into your life quietly.",
     "And change everything.",
   ];
+
+  // Guarantee video playback even across strict mobile browsers
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      video.muted = true;
+      video.play().catch(() => {
+        const handleFirstInteraction = () => {
+          if (videoRef.current) {
+            videoRef.current.muted = true;
+            videoRef.current.play().catch(() => {});
+          }
+          window.removeEventListener('click', handleFirstInteraction);
+          window.removeEventListener('touchstart', handleFirstInteraction);
+        };
+        window.addEventListener('click', handleFirstInteraction);
+        window.addEventListener('touchstart', handleFirstInteraction);
+      });
+    }
+  }, []);
 
   useEffect(() => {
     if (currentLine < lines.length - 1) {
@@ -30,21 +50,27 @@ export default function HeroSection() {
 
   return (
     <section id="hero" className="relative min-h-[92vh] sm:min-h-screen flex items-center justify-center overflow-hidden pt-24 pb-16 px-4">
-      {/* Background Image with Parallax and Face-Centric Framing */}
+      {/* Background Video - Plays Full Screen in Background */}
       <motion.div 
         style={{ y: yBg }} 
-        className="absolute inset-0 z-0 h-[125%] w-full"
+        className="absolute inset-0 z-0 h-[125%] w-full overflow-hidden"
       >
-        <Image
-          src="/images/arpita/2.jpeg"
-          alt="Arpita"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover opacity-35 filter brightness-[0.45]"
+        <video
+          ref={videoRef}
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover opacity-80 sm:opacity-85 filter brightness-[0.88] contrast-[1.08]"
           style={{ objectPosition: '50% 18%' }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-netflixBlack/70 via-deepBlack/80 to-deepBlack"></div>
+        >
+          <source src="/videos/new-video.mp4" type="video/mp4" />
+          <source src="/videos/bg-video.mp4" type="video/mp4" />
+        </video>
+
+        {/* Soft, Transparent Vignette allowing the face to remain bright and focused */}
+        <div className="absolute inset-0 bg-gradient-to-b from-netflixBlack/35 via-transparent to-deepBlack/95 pointer-events-none" />
+        <div className="absolute inset-0 bg-radial-gradient from-transparent via-deepBlack/15 to-deepBlack/65 pointer-events-none" />
       </motion.div>
 
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto w-full">
@@ -73,7 +99,7 @@ export default function HeroSection() {
           transition={{ delay: 0.6, duration: 1.2 }}
         >
           <h1 className="font-playfair text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-4 sm:mb-6 leading-tight">
-            <span className="block gold-gradient">Arpita ✦</span>
+            <span className="block gold-gradient">Dear Her ✦</span>
           </h1>
 
           <motion.p
@@ -82,16 +108,16 @@ export default function HeroSection() {
             transition={{ delay: 1.6, duration: 1 }}
             className="font-playfair text-lg sm:text-2xl md:text-3xl text-softIvory mb-4 sm:mb-6 tracking-wide px-2"
           >
-            &quot;The girl who codes dreams into reality.&quot;
+            &quot;In a world full of noise, you are my favorite quiet place.&quot;
           </motion.p>
 
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 2.2, duration: 1 }}
-            className="font-cormorant text-base sm:text-xl md:text-2xl text-warmGold/85 mb-8 sm:mb-12 italic tracking-wide px-2"
+            className="font-cormorant text-base sm:text-xl md:text-2xl text-warmGold/90 mb-8 sm:mb-12 italic tracking-wide px-2"
           >
-            Aspiring AI Engineer | GATE Dreamer | Future at Google & ISRO | Unstoppable
+            For the one whose smile turns ordinary moments into poetry ✨
           </motion.p>
 
           {/* CTA Button */}

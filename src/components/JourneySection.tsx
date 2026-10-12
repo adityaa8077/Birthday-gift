@@ -5,11 +5,26 @@ import { useInView } from 'react-intersection-observer';
 import Image from 'next/image';
 
 const journeySteps = [
-  { title: "The Spark", description: "It started with curiosity. A YouTube video about AI, a random coding tutorial, a thought — \"I can build things like this.\" That spark became a fire." },
-  { title: "The First Line of Code", description: "Everyone remembers their first \"Hello World.\" For Arpita, it wasn't just a line of code. It was the beginning of everything." },
-  { title: "The Grind Begins", description: "DSA problems at midnight. Understanding algorithms that felt impossible at first. But she kept going. Page by page. Problem by problem." },
-  { title: "The GATE Dream", description: "Not just any exam — the gateway to IITs, ISRO, PSUs, and the career she's always imagined. She chose the hardest path because easy was never her style." },
-  { title: "Google. Microsoft. ISRO.", description: "These aren't just company names to her. They're proof that if you work hard enough, you can change the world. And she will." },
+  { 
+    title: "The Quiet First Impression", 
+    description: "How softly you walked into my world, completely unaware of the light you carry. Some people need to make noise to be noticed; you captured my attention simply by being yourself." 
+  },
+  { 
+    title: "The Kindness You Give", 
+    description: "The effortless way you make everyone around you feel valued, safe, and heard. In a world that often rushes past feelings, your heart remains one of the warmest places to be." 
+  },
+  { 
+    title: "The Miracle of Your Smile", 
+    description: "That genuine, radiant smile of yours that honestly stops time. One glimpse of it has this magical way of making even the heaviest, most exhausting days instantly lighter." 
+  },
+  { 
+    title: "The Tender Soul Inside", 
+    description: "Beyond your graceful elegance lies a heart so deeply sincere and caring. You choose gentleness, warmth, and honesty — and that is the rarest kind of beauty." 
+  },
+  { 
+    title: "The Greatest Gift", 
+    description: "Out of all the billions of paths in this universe, ours managed to cross. You have quietly, softly, become one of the most beautiful chapters of my life's story." 
+  },
 ];
 
 export default function JourneySection() {
@@ -29,11 +44,14 @@ export default function JourneySection() {
           transition={{ duration: 1.2 }}
           className="text-center mb-14 sm:mb-20"
         >
+          <span className="font-playfair text-[10px] tracking-[0.3em] text-warmGold uppercase block mb-2">
+            Moments Of Admiration
+          </span>
           <h2 className="font-playfair text-3xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 gold-gradient">
-            The Journey So Far
+            Chapters of Your Grace
           </h2>
           <p className="font-cormorant text-lg sm:text-xl md:text-2xl text-softIvory/70 italic max-w-2xl mx-auto px-2">
-            &quot;Every expert was once a beginner. Every pro was once a noob.&quot;
+            &quot;In every chapter, you bring a quiet magic that makes everything feel right.&quot;
           </p>
           <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-warmGold to-transparent mx-auto mt-4 sm:mt-6"></div>
         </motion.div>
@@ -84,8 +102,8 @@ export default function JourneySection() {
         >
           <div className="relative w-full h-[360px] sm:h-[460px] rounded-lg overflow-hidden shadow-2xl border border-warmGold/20">
             <Image
-              src="/images/arpita/7.jpeg"
-              alt="Arpita's Journey"
+              src="/images/dear-her-4.jpeg"
+              alt="Her Grace"
               fill
               sizes="(max-width: 768px) 100vw, 450px"
               className="object-cover"

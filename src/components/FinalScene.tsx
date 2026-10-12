@@ -77,7 +77,7 @@ export default function FinalScene({ onInViewChange }: FinalSceneProps) {
               className="space-y-6 pt-4"
             >
               <p className="font-cormorant text-xl md:text-2xl text-softIvory/70 italic max-w-xl mx-auto leading-relaxed">
-                No matter where life takes you — GATE, Google, ISRO, or dreams you haven&apos;t even imagined yet — I hope this little corner of the internet always reminds you:
+                No matter where life takes you — through every sunrise, every quiet evening, and every dream your heart whispers — I hope this little corner of the internet always reminds you:
               </p>
               
               <div className="space-y-2 pt-4">
@@ -109,7 +109,7 @@ export default function FinalScene({ onInViewChange }: FinalSceneProps) {
               </p>
               
               <p className="font-inter text-xs text-softIvory/35 pt-10 tracking-widest leading-relaxed">
-                Made with care, affection, and endless admiration for Arpita.
+                Made with care, affection, and endless admiration for Dear Her.
                 <br />
                 © {new Date().getFullYear()} • Dedicated to You ✨
               </p>

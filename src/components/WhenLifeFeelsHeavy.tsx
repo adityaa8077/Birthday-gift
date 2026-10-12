@@ -34,11 +34,11 @@ export default function WhenLifeFeelsHeavy() {
 
           <div className="space-y-6 font-inter text-base md:text-lg text-softIvory/90 leading-relaxed">
             <p className="font-cormorant text-xl md:text-2xl text-softIvory/70 italic mb-8">
-              Maybe your code isn&apos;t working and you&apos;ve been debugging for hours.
+              Maybe today felt exhausting and the world felt a little too loud.
               <br />
-              Maybe GATE prep feels like climbing a mountain that never ends.
+              Maybe you carried worries quietly in your heart without telling anyone.
               <br />
-              Maybe you&apos;re quietly asking yourself if you&apos;re good enough for Google, for ISRO, for any of it.
+              Maybe you quietly wondered if you are truly valued and seen.
             </p>
 
             <p className="font-playfair text-xl text-warmGold font-semibold italic border-l-2 border-warmGold/40 pl-4 py-1 text-left my-6">
@@ -46,11 +46,11 @@ export default function WhenLifeFeelsHeavy() {
             </p>
 
             <p>
-              Your dream of becoming an AI engineer, of building things that actually matter, of walking into Google or ISRO someday — that dream is beautiful. It&apos;s worth fighting for. And I believe with everything in me that you&apos;ll get there.
+              I want you to know how deeply and sincerely you are appreciated. Every single day, your gentle presence brings warmth and light to those lucky enough to know you. You don&apos;t have to carry the weight of the world on your shoulders.
             </p>
 
             <p>
-              But your worth — the real, deep thing that makes you who you are — <span className="text-warmGold font-semibold">has never lived in a GATE score or a placement package or a company name</span>.
+              Your worth — the real, precious thing that makes you so deeply cherished — <span className="text-warmGold font-semibold">has never lived in perfection or expectations</span>.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 border-y border-warmGold/10 py-6 my-6 text-left">

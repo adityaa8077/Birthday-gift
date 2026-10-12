@@ -20,29 +20,29 @@ export default function VisionaryAction() {
           className="space-y-10"
         >
           <span className="font-playfair text-[10px] tracking-[0.3em] text-warmGold uppercase block">
-            The Vision
+            Pure Grace
           </span>
 
           <h2 className="font-playfair text-4xl md:text-6xl font-bold gold-gradient">
-            She Doesn&apos;t Just Dream
+            The Magic of Her Presence
           </h2>
 
           <div className="glass rounded-lg p-10 md:p-14 border border-warmGold/20 max-w-3xl mx-auto">
             <p className="font-cormorant text-2xl md:text-3xl text-softIvory italic leading-relaxed mb-8">
-              &quot;She doesn&apos;t just want a job in tech.
+              &quot;She came into my world like a gentle breeze on a suffocating day,
               <br />
-              She wants to build things that change the world.&quot;
+              and made everything brighter just by existing.&quot;
             </p>
 
             <div className="space-y-6 font-inter text-base md:text-lg text-softIvory/85 leading-relaxed text-left">
               <p>
-                Most people talk about their dreams. Arpita works for them. Quietly. Consistently. Without waiting for applause.
+                Some people leave impressions through grand gestures, but with her, it is in the simplest, purest moments. The effortless way she makes everyone around her feel valued and safe. The softness in her voice, and the natural kindness she pours out so freely.
               </p>
               <p>
-                While others scroll through reels, she&apos;s reading about neural networks. While others complain about how hard coding is, she&apos;s already on her next project. While the world sleeps, she&apos;s preparing for GATE.
+                In a world where people so often build walls, she chooses to remain gentle, real, and compassionate. That unfiltered grace is what makes her truly unforgettable.
               </p>
-              <p className="text-warmGold font-semibold text-center text-xl font-playfair">
-                That&apos;s not ambition. That&apos;s destiny.
+              <p className="text-warmGold font-semibold text-center text-xl sm:text-2xl font-playfair italic pt-2">
+                She didn&apos;t try to change my world. She just smiled. ✨
               </p>
             </div>
           </div>

@@ -23,8 +23,8 @@ export default function TodayReminder() {
         >
           <div className="relative w-full h-[360px] sm:h-[460px] md:h-[540px] rounded-lg overflow-hidden shadow-2xl border border-warmGold/25">
             <Image
-              src="/images/arpita/3.jpeg"
-              alt="Arpita"
+              src="/images/dear-her-3.jpeg"
+              alt="Dear Her"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
@@ -47,21 +47,21 @@ export default function TodayReminder() {
           </span>
 
           <h2 className="font-playfair text-3xl sm:text-4xl md:text-5xl font-bold gold-gradient">
-            Hey Arpita,
+            Dear You,
           </h2>
 
           <div className="space-y-4 sm:space-y-6 font-inter text-sm sm:text-base md:text-lg text-softIvory/90 leading-relaxed">
             <p>
-              I know you&apos;re working really hard right now. GATE prep, coding assignments, all those algorithms that make your head spin at 2am — I see all of it.
+              I know life can be overwhelming sometimes, and days can feel quiet and heavy — but I see you. I see the gentle strength you carry, the warmth you pour into everyone around you, and the sheer magic of your kind soul.
             </p>
             <p>
-              And I just want you to know: <span className="text-warmGold font-semibold">you&apos;re closer to your dream than you think.</span>
+              And I just want you to know: <span className="text-warmGold font-semibold">you are more wonderful than you could ever imagine.</span>
             </p>
             <p>
-              Google, Microsoft, ISRO — they don&apos;t know it yet, but someone incredible is coming their way. Someone who doesn&apos;t give up. Someone who stays up late not because she has to, but because she wants to be the best.
+              You don&apos;t need to achieve anything or prove anything to be worthy of love and happiness. Just walking into a room, just smiling, just being yourself — you make this world a softer, brighter, and infinitely more beautiful place.
             </p>
             <p className="font-playfair text-lg sm:text-xl text-warmGold font-semibold italic border-l-2 border-warmGold/40 pl-4 py-1 text-left">
-              That someone is you.
+              Never forget how truly special you are.
             </p>
           </div>
         </motion.div>

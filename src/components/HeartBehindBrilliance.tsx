@@ -21,11 +21,14 @@ export default function HeartBehindBrilliance() {
           transition={{ duration: 1 }}
           className="text-center mb-12 sm:mb-16"
         >
+          <span className="font-playfair text-[10px] tracking-[0.3em] text-warmGold uppercase block mb-2">
+            The Pure Soul Inside
+          </span>
           <h2 className="font-playfair text-3xl sm:text-5xl md:text-7xl font-bold mb-4 sm:mb-6 gold-gradient">
-            The Heart Behind the Code
+            The Heart Behind That Smile
           </h2>
           <p className="font-cormorant text-lg sm:text-2xl md:text-3xl text-softIvory/75 italic max-w-3xl mx-auto px-2">
-            Being smart is one thing. Being kind while being smart? That&apos;s rare.
+            Radiant on the outside, but your gentle kindness is what truly captivates me.
           </p>
           <div className="w-[80px] sm:w-[100px] h-[2px] bg-gradient-to-r from-transparent via-warmGold to-transparent mx-auto mt-4 sm:mt-6"></div>
         </motion.div>
@@ -40,8 +43,8 @@ export default function HeartBehindBrilliance() {
           >
             <div className="relative w-full h-[360px] sm:h-[460px] md:h-[520px] rounded-lg overflow-hidden shadow-2xl border border-warmGold/20">
               <Image
-                src="/images/arpita/5.jpeg"
-                alt="Arpita - Pure Heart"
+                src="/images/dear-her-5.jpeg"
+                alt="Dear Her - Pure Heart"
                 fill
                 sizes="(max-width: 768px) 100vw, 40vw"
                 className="object-cover"
@@ -61,7 +64,7 @@ export default function HeartBehindBrilliance() {
           >
             <div className="glass rounded-lg p-6 sm:p-10 md:p-12 border border-warmGold/20 relative shadow-2xl space-y-4 sm:space-y-6">
               <p className="font-cormorant text-xl sm:text-2xl md:text-3xl text-warmGold font-medium italic leading-relaxed border-b border-warmGold/15 pb-4 sm:pb-6">
-                &quot;Behind all the algorithms and code, there&apos;s a heart that cares more deeply than most people will ever know.&quot;
+                &quot;Behind that graceful smile lies a heart that cares more deeply and gently than words can ever tell.&quot;
               </p>
 
               <div className="space-y-4 sm:space-y-6 font-inter text-sm sm:text-base md:text-lg text-softIvory/90 leading-relaxed">
@@ -70,11 +73,11 @@ export default function HeartBehindBrilliance() {
                 </p>
 
                 <p>
-                  Everyone talks about how smart you are. How focused you are. How you&apos;re going to crack GATE and land at Google or ISRO someday. And yes, all of that is true.
+                  People will always notice how effortlessly radiant you look, or how gracefully you carry yourself wherever you go.
                 </p>
 
                 <p>
-                  But what I admire most about you isn&apos;t your brain — it&apos;s your heart. The way you listen when someone needs to talk. The way you care about people without expecting anything back. The way you make everyone around you feel like they matter. That&apos;s not something you learn from textbooks, Arpita. That&apos;s just who you are.
+                  But what moves me most about you isn&apos;t just your beauty — it is the warmth of your heart. The way you make everyone around you feel safe and deeply valued. The effortless gentleness with which you listen, and the quiet comfort you bring just by walking into a room. You don&apos;t just make the world look better; you make it feel softer, warmer, and whole.
                 </p>
               </div>
 

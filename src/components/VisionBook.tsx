@@ -6,32 +6,32 @@ import Image from 'next/image';
 
 const visionItems = [
   {
-    title: "Walking into Google",
-    description: "Picture this: Arpita, badge around her neck, walking into the Googleplex. Not as a tourist — as someone who earned her place. Working on AI that billions of people use every day.",
-    image: "/images/arpita/1.jpeg",
+    title: "Carefree Happiness",
+    description: "Picture this: a warm, sunlit afternoon with a gentle breeze, and you laughing freely without a single worry on your mind. Completely at ease, peaceful, and radiant.",
+    image: "/images/dear-her-1.jpeg",
     objectPos: "50% 15%",
-    quote: "\"Some people dream about it. She's going to live it.\""
+    quote: "\"Your happiness is honestly the most beautiful sight in the universe.\""
   },
   {
-    title: "Cracking GATE with a Top Rank",
-    description: "The moment her name appears on that result sheet — top rank, IIT calls, every door wide open. All those months of grinding, all those late nights, all worth it in a single second.",
-    image: "/images/arpita/2.jpeg",
+    title: "Deeply Cherished",
+    description: "A life where every ounce of kindness and love you have given to others returns to you tenfold. Where your tender heart is always safe, valued, and understood.",
+    image: "/images/dear-her-2.jpeg",
     objectPos: "50% 15%",
-    quote: "\"The score will just be a number. The journey is the real prize.\""
+    quote: "\"You deserve all the love you give away so selflessly.\""
   },
   {
-    title: "ISRO — Reaching the Stars",
-    description: "Using her AI skills to help India reach Mars, the Moon, and beyond. Her code running on satellites. Her algorithms helping missions succeed. How cool is that?",
-    image: "/images/arpita/3.jpeg",
+    title: "Quiet Sunsets & Wonder",
+    description: "Exploring beautiful streets, watching golden sunsets, and feeling that every step of your life is unfolding into something breathtaking and magical.",
+    image: "/images/dear-her-3.jpeg",
     objectPos: "50% 15%",
-    quote: "\"Her code will literally fly through space.\""
+    quote: "\"May the universe always lay out a path of flowers for your feet.\""
   },
   {
-    title: "Building Her Own Thing",
-    description: "Someday she'll have her own project, her own product, maybe her own startup. Something that has her fingerprint on it. Something that makes people go — wow, she built this.",
-    image: "/images/arpita/8.jpeg",
+    title: "Peace in Every Tomorrow",
+    description: "Knowing deep down that you are enough, that your presence alone lights up rooms, and that someone out there will always be cheering for you from the bottom of their heart.",
+    image: "/images/dear-her-4.jpeg",
     objectPos: "50% 15%",
-    quote: "\"The best builders don't wait for permission. They just start.\""
+    quote: "\"Someone who thanks the stars every single night, just because you exist.\""
   },
 ];
 
@@ -51,11 +51,14 @@ export default function VisionBook() {
           transition={{ duration: 1.2 }}
           className="text-center mb-12 sm:mb-16"
         >
+          <span className="font-playfair text-[10px] tracking-[0.3em] text-warmGold uppercase block mb-2">
+            Wishes For Your Tomorrow
+          </span>
           <h2 className="font-playfair text-3xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 gold-gradient">
-            The Vision Board
+            Visions of Your Happiness
           </h2>
           <p className="font-cormorant text-lg sm:text-xl md:text-2xl text-softIvory/70 italic max-w-2xl mx-auto px-2">
-            &quot;Close your eyes. Imagine the future. Now open them and go build it.&quot;
+            &quot;Close your eyes. Imagine all the peace and joy waiting for you. You deserve every bit of it.&quot;
           </p>
           <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-warmGold to-transparent mx-auto mt-4 sm:mt-6"></div>
         </motion.div>

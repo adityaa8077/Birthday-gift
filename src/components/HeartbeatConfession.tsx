@@ -14,76 +14,76 @@ const narrativePhases = [
   {
     phaseId: 'intro',
     lines: [
-      "Sometimes I find myself wanting to write about Arpita...",
-      "and I realize I still don’t know enough words to describe what she has come to mean to me.",
+      "Sometimes I find myself lost in thoughts of you...",
+      "composing a thousand different letters in my mind.",
     ],
     delay: 3600,
   },
   {
-    phaseId: 'connection',
+    phaseId: 'emotions',
     lines: [
-      "It’s strange how someone can enter your life so recently and yet leave such a beautiful impression.",
-      "We haven’t known each other for very long, and I know it’s too early to give everything a name or to understand where this connection is going.",
-      "Maybe that’s exactly why I don’t want to rush it.",
-      "I just want to appreciate it for what it is.",
+      "There are so many emotions I have carried in my heart lately — heavy and beautiful all at once.",
+      "Sometimes I just don't know the right way to weave them into words...",
+      "or if I even have the courage to say them out loud.",
+      "But my heart needs to speak.",
     ],
     delay: 3400,
   },
   {
-    phaseId: 'qualities',
+    phaseId: 'presence',
     lines: [
-      "You have this softness in the way you talk, this kindness in the way you treat people, and this warmth that makes conversations feel easier than they should.",
-      "The more I get to know you, the more I realize that the person I imagined you to be was only a small part of who you actually are.",
-      "And your smile… honestly, I don’t know how you manage it, but somehow it makes ordinary moments feel a little brighter. ✨",
+      "I often sit back and wonder how someone like you walked into my life...",
+      "and so effortlessly became one of the most beautiful parts of it.",
+      "You came into my world like a gentle breeze on a suffocating day. ✨",
     ],
     delay: 3800,
   },
   {
-    phaseId: 'respect',
+    phaseId: 'admiration',
     lines: [
-      "I know you’ve told me that you don’t want attachment or commitment right now.",
-      "I heard you. And I respect that.",
-      "I don’t want my feelings to become a weight you have to carry, nor do I want you to feel that you owe me anything because I care about you.",
+      "I am in absolute awe of your kindness, your warmth...",
+      "and the effortless way you make everyone around you feel deeply valued and safe.",
+      "I don't think you even realize the sheer amount of light you bring into a room just by existing.",
     ],
     delay: 3400,
   },
   {
-    phaseId: 'discovery',
+    phaseId: 'smile',
     lines: [
-      "Maybe some people aren’t meant to be understood all at once.",
-      "Maybe they’re meant to be discovered slowly—through random conversations, silly arguments, unexpected jokes, and all those tiny moments that somehow stay with you.",
-      "That’s how I want to know you.",
-      "Not as an idea. Not as someone I’ve imagined. But simply as Arpita.",
+      "And your smile… your smile is honestly one of my favorite miracles in this world.",
+      "I don't know how you do it, but one glimpse of it makes even my hardest days feel instantly lighter.",
+      "I am so profoundly grateful that out of all the billions of paths in this universe, ours managed to cross. ✨",
     ],
     delay: 3200,
   },
   {
-    phaseId: 'confession',
+    phaseId: 'choosing',
     lines: [
-      "And yes… I like you. ❤️",
-      "But there’s no hurry.",
-      "Let’s let time tell us what this is supposed to become.",
+      "If I were given a hundred lifetimes and had to choose all over again...",
+      "I would choose to meet you every single time, without a second thought.",
+      "You have quietly, softly, become one of the most beautiful chapters of my life's story. ❤️",
     ],
     delay: 3600,
   },
   {
-    phaseId: 'gratitude',
+    phaseId: 'promise',
     lines: [
-      "Until then, wherever life takes you, I genuinely hope it gives you reasons to smile and takes you further than you ever imagined.",
-      "I’m simply grateful that our paths crossed.",
-      "No expectations. No pressure. Just gratitude, affection, and a little bit of hope. ✨",
+      "And if you ever have a difficult day, or if you ever feel alone...",
+      "I want you to close your eyes and just remember this:",
+      "Somewhere out there is someone who genuinely, selflessly wishes the absolute best for you.",
+      "Someone who thanks the stars every single night, just because you exist. ✨",
     ],
     delay: 3400,
   }
 ];
 
 const montageImages = [
-  { src: "/images/arpita/1.jpeg", caption: "“that genuine, heart-melting smile…”", objectPos: "50% 20%" },
-  { src: "/images/arpita/2.jpeg", caption: "“that radiant grace…”", objectPos: "50% 15%" },
-  { src: "/images/arpita/3.jpeg", caption: "“the warmth that makes every moment brighter…”", objectPos: "50% 15%" },
-  { src: "/images/arpita/7.jpeg", caption: "“discovering who you are, one day at a time…”", objectPos: "50% 12%" },
-  { src: "/images/arpita/5.jpeg", caption: "“simply grateful that our paths crossed…”", objectPos: "50% 15%" },
-  { src: "/images/arpita/8.jpeg", caption: "“forever wishing you happiness, Arpita ✨”", objectPos: "50% 18%" },
+  { src: "/images/dear-her-1.jpeg", caption: "\u201cthat genuine, heart-melting smile…\u201d", objectPos: "50% 20%" },
+  { src: "/images/dear-her-2.jpeg", caption: "\u201cthat radiant grace…\u201d", objectPos: "50% 15%" },
+  { src: "/images/dear-her-3.jpeg", caption: "\u201cthe warmth that makes every moment brighter…\u201d", objectPos: "50% 15%" },
+  { src: "/images/dear-her-4.jpeg", caption: "\u201cdiscovering who you are, one day at a time…\u201d", objectPos: "50% 12%" },
+  { src: "/images/dear-her-5.jpeg", caption: "\u201csimply grateful that our paths crossed…\u201d", objectPos: "50% 15%" },
+  { src: "/images/dear-her-1.jpeg", caption: "\u201cforever wishing you happiness ✨\u201d", objectPos: "50% 18%" },
 ];
 
 export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChange }: HeartbeatConfessionProps) {
@@ -241,7 +241,7 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
         output.push({
           text: str,
           id: `${p}-${l}`,
-          isConfession: str.includes("And yes… I like you."),
+          isConfession: str.includes("I would choose to meet you every single time"),
         });
       }
     }
@@ -309,7 +309,7 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
             className="w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full bg-gradient-to-r from-roseGold to-blushPink shadow-[0_0_20px_rgba(244,160,160,0.8)]"
           />
           <span className="font-playfair text-[10px] sm:text-[11px] tracking-[0.25em] sm:tracking-[0.3em] uppercase text-blushPink/80 truncate">
-            {showFullLetterMode ? "A Letter For Arpita" : "Listening to My Heart"}
+            {showFullLetterMode ? "A Letter For Dear Her" : "Listening to My Heart"}
           </span>
         </div>
 
@@ -376,7 +376,7 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
                 From My Heart To Yours
               </span>
               <h2 className="font-playfair text-3xl sm:text-5xl md:text-6xl font-bold gold-gradient">
-                For Arpita ✦
+                Dear Her ✦
               </h2>
               <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-roseGold to-transparent mx-auto mt-3" />
             </div>
@@ -400,7 +400,7 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
                     >
                       <Image
                         src={montageImages[montageIndex].src}
-                        alt="Arpita"
+                        alt="Dear Her"
                         fill
                         sizes="(max-width: 768px) 100vw, 700px"
                         className="object-cover"
@@ -417,68 +417,52 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
                 </div>
               </div>
 
-              {/* Exact User Words in Beautiful Typography */}
+              {/* The User's Letter in Beautiful Typography */}
               <div className="space-y-4 sm:space-y-6 font-cormorant text-lg sm:text-xl md:text-2xl leading-relaxed text-[#3d2a21] ml-2 sm:ml-6 md:ml-8">
-                <p>
-                  Sometimes I find myself wanting to write about Arpita, and I realize I still don’t know enough words to describe what she has come to mean to me.
+                <p className="font-playfair text-xl sm:text-2xl md:text-3xl font-bold text-[#6a1b29] italic">
+                  Dear you,
                 </p>
 
                 <p>
-                  It’s strange how someone can enter your life so recently and yet leave such a beautiful impression. We haven’t known each other for very long, and I know it’s too early to give everything a name or to understand where this connection is going. Maybe that’s exactly why I don’t want to rush it.
+                  I often find myself lost in thoughts of you, composing a thousand different letters in my mind. There are so many emotions I have carried in my heart lately—heavy and beautiful all at once. Sometimes I just don't know the right way to weave them into words, or if I even have the courage to say them out loud, but my heart needs to speak.
+                </p>
+
+                <p>
+                  I often sit back and wonder how someone like you walked into my life and so effortlessly became one of the most beautiful parts of it. You came into my world like a gentle breeze on a suffocating day. Your presence has this magical way of making everything feel brighter, calmer, and somehow exactly the way it is supposed to be.
                 </p>
 
                 <p className="font-semibold text-[#8b3a4a] italic border-l-2 border-[#b76e79] pl-3 sm:pl-4 py-0.5">
-                  I just want to appreciate it for what it is.
+                  I am in absolute awe of your kindness, your warmth, and the effortless way you make everyone around you feel deeply valued and safe. I don't think you even realize the sheer amount of light you bring into a room just by existing.
                 </p>
 
                 <p>
-                  You have this softness in the way you talk, this kindness in the way you treat people, and this warmth that makes conversations feel easier than they should. The more I get to know you, the more I realize that the person I imagined you to be was only a small part of who you actually are.
+                  And your smile… your smile is honestly one of my favorite miracles in this world. I don't know how you do it, but one glimpse of it makes even my hardest days feel instantly lighter. I am so profoundly grateful that out of all the billions of paths in this universe, ours managed to cross, and I was given the privilege of knowing you.
                 </p>
 
                 <p>
-                  And your smile… honestly, I don’t know how you manage it, but somehow it makes ordinary moments feel a little brighter. ✨
-                </p>
-
-                <p>
-                  I know you’ve told me that you don’t want attachment or commitment right now. I heard you. And I respect that. I don’t want my feelings to become a weight you have to carry, nor do I want you to feel that you owe me anything because I care about you.
-                </p>
-
-                <p>
-                  Maybe some people aren’t meant to be understood all at once. Maybe they’re meant to be discovered slowly—through random conversations, silly arguments, unexpected jokes, and all those tiny moments that somehow stay with you.
-                </p>
-
-                <p>
-                  That’s how I want to know you.
-                </p>
-
-                <p className="font-playfair text-lg sm:text-xl md:text-2xl font-bold text-[#6a1b29]">
-                  Not as an idea. Not as someone I’ve imagined. But simply as Arpita.
+                  Some people bring happiness wherever they go, but you bring it to me even when I am just sitting alone in a quiet room, simply thinking about you.
                 </p>
 
                 <div className="py-3 sm:py-4 my-2 text-center border-y border-[#d8c3a1]/60">
                   <p className="font-playfair text-2xl sm:text-3xl md:text-4xl font-bold text-[#8b3a4a] tracking-wide">
-                    And yes… I like you. ❤️
+                    If I were given a hundred lifetimes and had to choose all over again, I would choose to meet you every single time, without a second thought. ❤️
                   </p>
                 </div>
 
                 <p>
-                  But there’s no hurry.
-                </p>
-
-                <p className="italic text-[#4a3429]">
-                  Let’s let time tell us what this is supposed to become.
+                  You have quietly, softly, become one of the most beautiful chapters of my life's story.
                 </p>
 
                 <p>
-                  Until then, wherever life takes you, I genuinely hope it gives you reasons to smile and takes you further than you ever imagined.
+                  I may not always say these things out loud to you, but please know that you mean more to me than language could ever explain. I truly hope that wherever life takes you, it lays out a path of flowers for you. I pray it gives you endless reasons to smile and surrounds you with all the incredible, beautiful things you deserve.
                 </p>
 
                 <p className="font-medium">
-                  I’m simply grateful that our paths crossed.
+                  And if you ever have a difficult day, or if you ever feel alone, I want you to close your eyes and just remember this: somewhere out there is someone who genuinely, selflessly wishes the absolute best for you.
                 </p>
 
                 <p className="text-center font-playfair text-lg sm:text-xl md:text-2xl text-[#8b3a4a] font-semibold pt-2 sm:pt-4">
-                  No expectations. No pressure. Just gratitude, affection, and a little bit of hope. ✨
+                  Someone who thanks the stars every single night, just because you exist. ✨
                 </p>
               </div>
 
@@ -491,6 +475,49 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
                   — Aditya ❤️
                 </p>
               </div>
+            </div>
+
+            {/* Couple Photo Section - Full Cover "Thanks for existing" */}
+            <div className="w-full mt-12 sm:mt-16 space-y-6 sm:space-y-8">
+              <div className="text-center">
+                <span className="font-playfair text-[11px] sm:text-xs tracking-[0.3em] uppercase text-blushPink/80 block mb-1">
+                  Our Story • Forever Cherished
+                </span>
+                <h3 className="font-playfair text-2xl sm:text-4xl md:text-5xl font-bold gold-gradient mb-2">
+                  Thanks for Existing ✨
+                </h3>
+                <p className="font-cormorant text-lg sm:text-2xl text-softIvory/80 italic max-w-xl mx-auto">
+                  Out of billions of paths in this universe, having you in mine is my favorite miracle.
+                </p>
+                <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-roseGold to-transparent mx-auto mt-4" />
+              </div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 25 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 1 }}
+                className="relative w-full max-w-xl mx-auto h-[480px] sm:h-[620px] md:h-[720px] rounded-2xl overflow-hidden border-2 border-roseGold/60 shadow-[0_25px_60px_rgba(183,110,121,0.4)] group bg-black/50"
+              >
+                <Image
+                  src="/images/couple-we.jpeg"
+                  alt="We"
+                  fill
+                  priority
+                  sizes="(max-width: 768px) 100vw, 600px"
+                  className="object-cover transition-transform duration-700"
+                  style={{ objectPosition: '50% 0%' }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-deepBlack/85 via-transparent to-transparent pointer-events-none" />
+                <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6 text-center space-y-1.5 pointer-events-none">
+                  <p className="font-caveat text-3xl sm:text-5xl text-softIvory font-bold drop-shadow-[0_4px_12px_rgba(0,0,0,0.9)]">
+                    We ❤️
+                  </p>
+                  <p className="font-cormorant text-base sm:text-xl text-warmGold italic drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
+                    &quot;You have quietly, softly, become one of the most beautiful chapters of my life&apos;s story.&quot;
+                  </p>
+                </div>
+              </motion.div>
             </div>
 
             {/* Exit Action Button */}

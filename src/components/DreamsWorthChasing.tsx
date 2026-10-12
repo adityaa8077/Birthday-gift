@@ -2,13 +2,13 @@
 
 import { motion } from 'framer-motion';
 
-const dreams = [
-  { emoji: "🤖", title: "Artificial Intelligence", description: "Building machines that think, learn, and help humanity solve its biggest problems." },
-  { emoji: "🚀", title: "ISRO & Space Tech", description: "Using AI to power India's space missions — because her dreams are literally out of this world." },
-  { emoji: "🎯", title: "Cracking GATE", description: "Not just passing — dominating. She's not the type to settle for \"good enough.\"" },
-  { emoji: "🌐", title: "Google / Microsoft", description: "Walking into those campuses not as a visitor, but as someone who belongs there." },
-  { emoji: "💡", title: "Building Something of Her Own", description: "Someday, maybe a startup. Maybe a product. Something with her name on it." },
-  { emoji: "✨", title: "Inspiring Other Girls in Tech", description: "Proving that a girl from India can code her way to the top of the world." },
+const treasures = [
+  { emoji: "🌸", title: "Gentle Kindness", description: "The genuine warmth and consideration you extend to everyone. Your heart is one of the purest places in this world." },
+  { emoji: "✨", title: "That Miracle Smile", description: "The effortless beauty of your smile that brings light into any room and makes the hardest days feel instantly lighter." },
+  { emoji: "🌙", title: "A Calming Presence", description: "Being around you feels like taking a deep, peaceful breath. You have this magical gift of making everything feel right." },
+  { emoji: "🤍", title: "Quiet Grace", description: "The quiet dignity and natural elegance in the way you speak, laugh, and move through every moment of life." },
+  { emoji: "💫", title: "Rare Authenticity", description: "In a world full of noise and pretending, you remain wonderfully, effortlessly, and genuinely yourself." },
+  { emoji: "🌷", title: "A Beautiful Destiny", description: "Whatever lies ahead for you, I pray life surrounds you with endless reasons to smile and all the joy you deserve." },
 ];
 
 export default function DreamsWorthChasing() {
@@ -25,17 +25,20 @@ export default function DreamsWorthChasing() {
           transition={{ duration: 1.2 }}
           className="text-center mb-16"
         >
+          <span className="font-playfair text-[10px] tracking-[0.3em] text-warmGold uppercase block mb-2">
+            What Makes You Special
+          </span>
           <h2 className="font-playfair text-4xl md:text-6xl font-bold mb-6 gold-gradient">
-            Dreams Worth Chasing
+            Treasures of Your Heart
           </h2>
           <p className="font-cormorant text-xl md:text-2xl text-softIvory/70 italic max-w-2xl mx-auto">
-            &quot;She doesn&apos;t just have dreams. She has a plan.&quot;
+            &quot;Some people bring happiness wherever they go, but you bring it even in quiet thoughts.&quot;
           </p>
           <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-warmGold to-transparent mx-auto mt-6"></div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {dreams.map((dream, idx) => (
+          {treasures.map((dream, idx) => (
             <motion.div
               key={idx}
               initial={{ opacity: 0, y: 25 }}
@@ -64,7 +67,7 @@ export default function DreamsWorthChasing() {
           className="text-center mt-16"
         >
           <p className="font-cormorant text-2xl md:text-3xl text-warmGold italic">
-            Every single one of these dreams? She&apos;s going to make them real.
+            If I were given a hundred lifetimes, I would choose to know you every single time. ✨
           </p>
         </motion.div>
 

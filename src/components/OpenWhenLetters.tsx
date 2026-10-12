@@ -8,60 +8,60 @@ const letters = [
     trigger: "Tired",
     title: "Open When You're Tired",
     content: [
-      "Hey Arpita. Put the laptop down. Close VS Code. Step away from the screen.",
-      "I know you've been coding for hours. I know GATE prep feels endless. I know your brain is fried right now.",
-      "But listen — you've already done more today than most people do in a week. That's not nothing. That's everything.",
-      "Rest now. The code will still be there tomorrow. But your health won't wait forever. Take care of yourself. For me."
+      "Hey. Put the worries down. Close your eyes. Step back from the noise of the world.",
+      "I know you carry so much so gracefully. But even the gentlest soul needs rest.",
+      "You don't have to carry the whole universe on your shoulders. You have already made today more beautiful just by existing in it.",
+      "Rest now. Tomorrow can wait. Take care of your gentle heart — it means the world to me."
     ]
   },
   {
     trigger: "Doubt Yourself",
     title: "Open When You Doubt Yourself",
     content: [
-      "So you're sitting there thinking \"Am I even good enough for this?\" Let me answer that for you: YES.",
-      "You are brilliant. You are resilient. And you have this quiet fire inside you that most people can only dream of having.",
-      "Doubt is just your brain being dramatic. It doesn't change the fact that you were MADE for this — AI, tech, Google, ISRO, all of it.",
-      "I believe in you. Even on the days you can't believe in yourself. Especially on those days."
+      "So you're sitting there wondering if you're enough. Let me answer that for you: you are more than enough.",
+      "You are precious, rare, and deeply cherished. You have a kindness and warmth that lights up entire rooms without you even realizing it.",
+      "Doubt is just a passing shadow. It can never dim the sheer beauty of who you are.",
+      "I believe in you with all my heart. Even on the days you forget how extraordinary you are. Especially on those days."
     ]
   },
   {
-    trigger: "GATE Feels Too Hard",
-    title: "Open When GATE Feels Too Hard",
+    trigger: "Heart Feels Heavy",
+    title: "Open When Your Heart Feels Heavy",
     content: [
-      "I know. The syllabus feels infinite. The competition feels impossible. Some days it feels like everyone else is smarter.",
-      "But here's what I know about you: you don't quit. You never have. You just take a breath and go again.",
-      "One topic at a time. One problem at a time. One day at a time. That's all it takes.",
-      "And when you finally crack it — and you WILL — I'll be the first person celebrating. Louder than anyone."
+      "I know some days feel overwhelming. Some days feel like too much to hold all at once.",
+      "Take a gentle, slow breath. Remember that you are safe, and your worth has never depended on being perfect or pleasing anyone.",
+      "You are allowed to rest. You are allowed to be vulnerable. You don't have to face anything alone.",
+      "Whenever life feels heavy, close your eyes and remember: someone out there is wishing only peace and flowers for your path."
     ]
   },
   {
     trigger: "Need to Smile",
     title: "Open When You Need to Smile",
     content: [
-      "Did you know your smile is literally my favorite thing in the whole world? I'm not even exaggerating.",
-      "When you smile, everything just... stops. Like the world pauses for a second to appreciate it.",
-      "I don't care if it's been the worst day ever — you reading this right now, I just want you to smile. Even a tiny one.",
-      "There it is. See? The world already feels better. You have that power. Don't ever forget it."
+      "Did you know your smile is honestly one of my favorite miracles in this world? I'm not even exaggerating.",
+      "When you smile, everything stops. It feels like the world takes a quiet breath just to admire it.",
+      "No matter what kind of day it has been, seeing you smile makes even my hardest days instantly lighter.",
+      "There it is. See? The world is brighter already. Never forget how much light you bring into this life."
     ]
   },
   {
     trigger: "Feel Lonely",
     title: "Open When You Feel Lonely",
     content: [
-      "Hey. If you're reading this, you're probably having one of those nights where everything feels too quiet and too loud at the same time.",
-      "I want you to know something: you are never alone. Not really. I'm always just one call, one text, one thought away.",
-      "I made this whole website so that even on the loneliest nights, you'd have somewhere to come. A place that reminds you that someone out there thinks about you. A lot.",
-      "You are loved, Arpita. More than you know. Always."
+      "Hey. If you're reading this, you might be having one of those quiet nights where everything feels a little too still.",
+      "Please remember this: you are never alone. Not really. You are always held in my warmest thoughts.",
+      "I made this little corner of the internet so you would always have a place that reminds you of how much you are cherished.",
+      "Someone thanks the stars every single night, just because you exist."
     ]
   },
   {
-    trigger: "Get Into Google / ISRO",
-    title: "Open When You Get Into Google / ISRO",
+    trigger: "Celebrate",
+    title: "Open When You Have Something to Celebrate",
     content: [
-      "ARPITA. YOU DID IT. YOU ACTUALLY DID IT.",
-      "Do you remember all those nights? The ones where you wanted to give up? The ones where you thought you weren't good enough? LOOK AT YOU NOW.",
-      "I always knew this day would come. Not because I'm optimistic — because I know YOU. I've watched you work harder than anyone I've ever met.",
-      "I am so, so, SO proud of you. The proudest person alive right now. And I will never stop telling everyone that my best friend made it to the top. 🚀"
+      "I AM SO HAPPY FOR YOU! Look at that radiant smile of yours!",
+      "Seeing you happy, seeing your eyes sparkle with joy, is honestly the greatest sight in the universe.",
+      "You deserve every good thing, every ounce of happiness, and every beautiful dream that comes your way.",
+      "I am cheering for you always. Today, tomorrow, and every day that follows. ✨"
     ]
   },
 ];

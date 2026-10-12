@@ -23,8 +23,8 @@ export default function FinaleSection() {
         >
           <div className="relative w-full rounded-lg overflow-hidden shadow-2xl border border-warmGold/30 bg-black/40 h-[360px] sm:h-[480px] md:h-[580px]">
             <Image
-              src="/images/arpita/2.jpeg"
-              alt="Arpita"
+              src="/images/dear-her-1.jpeg"
+              alt="Dear Her"
               fill
               sizes="(max-width: 768px) 100vw, 800px"
               className="object-cover"
@@ -44,10 +44,10 @@ export default function FinaleSection() {
         >
           <div className="glass rounded-lg p-6 sm:p-10 border border-warmGold/25 max-w-4xl mx-auto">
             <p className="font-cormorant text-xl sm:text-3xl md:text-4xl text-softIvory italic leading-relaxed">
-              She didn&apos;t just dream about changing the world.
+              She didn&apos;t have to change the whole world.
               <br />
               <span className="gold-gradient font-bold not-italic">
-                She built the skills, the grit, and the heart to actually do it.
+                She just smiled, and changed mine forever.
               </span>
             </p>
           </div>
@@ -82,7 +82,7 @@ export default function FinaleSection() {
           <div className="inline-block glass rounded-full px-6 sm:px-12 py-3 sm:py-5 border border-warmGold/35 shadow-lg">
             <p className="font-cormorant text-lg sm:text-2xl md:text-4xl text-warmGold flex items-center justify-center gap-2 sm:gap-4">
               <span className="text-3xl sm:text-5xl">✨</span>
-              <span className="italic font-semibold">For Arpita, with all my heart ✦</span>
+              <span className="italic font-semibold">For Dear Her, with all my heart ✦</span>
             </p>
           </div>
         </motion.div>
@@ -102,19 +102,19 @@ export default function FinaleSection() {
                 </p>
 
                 <p>
-                  Hey Arpita. If you&apos;ve made it this far, thank you. Thank you for giving me a few minutes of your time. I know you&apos;re busy chasing your dreams, and I know your time is precious.
+                  Hey, Dear Her. If you&apos;ve made it this far, thank you. Thank you for walking through this little world with me.
                 </p>
 
                 <p>
-                  I made this because I wanted you to see yourself the way I see you. Not just the smart girl who&apos;s going to crack GATE and land at Google or ISRO. But the girl who cares so deeply, makes people laugh, and brings light wherever she goes.
+                  I made this because I wanted you to see yourself through my eyes — even if just for a few moments. To see how deeply you are appreciated, how genuine your kindness is, and how much light you bring into every room just by existing.
                 </p>
 
                 <p>
-                  You&apos;re my best friend, the smartest person I know, and honestly? The reason I believe in good things. You make the world better just by being in it.
+                  Your laughter, your gentle spirit, and your warmth are honestly the reason I believe in good things. You make this world softer, brighter, and infinitely more beautiful.
                 </p>
 
                 <p className="font-cormorant text-xl sm:text-2xl md:text-3xl text-warmGold italic text-center font-medium pt-2 sm:pt-4">
-                  Keep going, Arpita. The world has no idea what&apos;s coming.
+                  Thank you for being you, Dear Her. Always. ✨
                 </p>
               </div>
 

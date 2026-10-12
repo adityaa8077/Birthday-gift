@@ -13,7 +13,7 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
-    const visits = localStorage.getItem('arpita_visits');
+    const visits = localStorage.getItem('dearher_visits');
     const count = visits ? parseInt(visits, 10) : 0;
     setVisitCount(count);
   }, []);
@@ -85,7 +85,7 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
   }, [shouldShow]);
 
   const handleEnter = () => {
-    localStorage.setItem('arpita_visits', '1');
+    localStorage.setItem('dearher_visits', '1');
     setShouldShow(false);
     onEnter();
   };
@@ -98,7 +98,7 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.8, ease: 'easeInOut' }}
-            className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-deepBlack text-softIvory select-none px-4"
+            className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-deepBlack/85 backdrop-blur-sm text-softIvory select-none px-4"
           >
             <canvas ref={canvasRef} className="absolute inset-0 z-0 w-full h-full pointer-events-none" />
 
@@ -109,7 +109,7 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
                 transition={{ duration: 0.6, ease: 'easeOut' }}
                 className="font-playfair text-3xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 tracking-widest text-warmGold"
               >
-                For Arpita ✦
+                Dear Her ✦
               </motion.h1>
 
               <motion.p
@@ -150,7 +150,7 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
             className="text-center"
           >
             <p className="font-cormorant text-xs sm:text-sm italic tracking-widest text-warmGold/80">
-              Welcome back, Arpita.
+              Welcome back ✦
             </p>
           </motion.div>
         </div>

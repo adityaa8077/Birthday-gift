@@ -6,11 +6,23 @@ import { useInView } from 'react-intersection-observer';
 export default function TheQuietGrind() {
   const [ref, inView] = useInView({ threshold: 0.2, triggerOnce: true });
 
-  const grindMoments = [
-    { title: "The Late Nights", description: "When everyone&apos;s asleep and you&apos;re still staring at code, trying to fix that one bug that makes no sense. That&apos;s not just studying — that&apos;s building your future, line by line." },
-    { title: "The Failed Runs", description: "When the code doesn&apos;t compile, when the logic breaks, when you want to throw your laptop. But you don&apos;t. You debug. You try again. That&apos;s what separates dreamers from builders." },
-    { title: "The Silent Sacrifices", description: "The parties you skipped. The weekends you gave to DSA. The times you chose LeetCode over Netflix. Nobody sees these sacrifices, but I do." },
-    { title: "The 2am Questions", description: "\"Am I good enough?\" \"Will I crack GATE?\" \"Can I really make it to Google?\" — Yes. Yes. And absolutely yes." },
+  const romanticMoments = [
+    { 
+      title: "The Soft Strength", 
+      description: "In a world that can feel loud and demanding, you carry a quiet grace. You never have to shout to be felt; your presence alone brings a calming, peaceful warmth." 
+    },
+    { 
+      title: "The Generous Heart", 
+      description: "The way you make others feel seen, safe, and deeply appreciated. You pour kindness into little moments without ever asking for praise or recognition." 
+    },
+    { 
+      title: "The Unfiltered Smile", 
+      description: "Not the smile put on for others, but that real, spontaneous laughter that lights up your eyes. It is honestly one of my favorite miracles in this world." 
+    },
+    { 
+      title: "The Quiet Thoughts", 
+      description: "Even when I am just sitting alone in a quiet room, thoughts of you bring an effortless smile to my face. Knowing you exist is enough to brighten any day." 
+    },
   ];
 
   return (
@@ -27,17 +39,20 @@ export default function TheQuietGrind() {
           transition={{ duration: 1.2 }}
           className="text-center mb-16"
         >
+          <span className="font-playfair text-[10px] tracking-[0.3em] text-warmGold uppercase block mb-2">
+            What I Admire In You
+          </span>
           <h2 className="font-playfair text-4xl md:text-6xl font-bold mb-6 gold-gradient">
-            The Quiet Grind
+            The Quiet Beauty in You
           </h2>
           <p className="font-cormorant text-xl md:text-2xl text-softIvory/70 italic max-w-2xl mx-auto">
-            &quot;Nobody sees the hours you put in. But the results will speak for themselves.&quot;
+            &quot;It&apos;s not just how radiant you are. It&apos;s the gentle grace you carry everywhere.&quot;
           </p>
           <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-warmGold to-transparent mx-auto mt-6"></div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {grindMoments.map((moment, idx) => (
+          {romanticMoments.map((moment, idx) => (
             <motion.div
               key={idx}
               initial={{ opacity: 0, y: 30 }}
@@ -51,7 +66,8 @@ export default function TheQuietGrind() {
                   <h3 className="font-playfair text-xl font-bold text-warmGold mb-3">
                     {moment.title}
                   </h3>
-                  <p className="font-inter text-base text-softIvory/80 leading-relaxed" dangerouslySetInnerHTML={{ __html: moment.description }}>
+                  <p className="font-inter text-base text-softIvory/80 leading-relaxed">
+                    {moment.description}
                   </p>
                 </div>
               </div>
@@ -67,7 +83,7 @@ export default function TheQuietGrind() {
           className="text-center mt-16 max-w-2xl mx-auto"
         >
           <p className="font-cormorant text-2xl md:text-3xl text-softIvory/90 italic leading-relaxed">
-            Keep grinding, Arpita. The world isn&apos;t ready for what you&apos;re about to become.
+            You don&apos;t have to be anything more than you are. You are already my favorite miracle. ✨
           </p>
         </motion.div>
 

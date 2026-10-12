@@ -4,14 +4,14 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 const qualities = [
-  { title: "Your Kindness", thought: "You care about people without thinking twice. That's not common. That's special." },
-  { title: "Your Honesty", thought: "You say things as they are. No sugarcoating. That takes more courage than people realize." },
-  { title: "Your Patience", thought: "With code that doesn't work. With people who don't understand. With life when it gets hard. You stay calm." },
-  { title: "Your Laugh", thought: "It's contagious. It lights up the whole room. And it makes everything feel okay." },
-  { title: "Your Stubbornness", thought: "Yeah, I said it. You don't give up. Ever. That's not a flaw — it's your superpower." },
-  { title: "Your Smile", thought: "I could write a whole page about this. But you already know what it does to people. Or maybe you don't. That makes it even better." },
-  { title: "Your Heart", thought: "You feel deeply. You love deeply. In a world that pretends not to care, you care. That matters more than anything." },
-  { title: "Your Fire", thought: "That quiet determination. That \"watch me\" energy. The world has no idea what's coming." },
+  { title: "Your Kindness", thought: "You care about people without thinking twice. That's not common. That's deeply special." },
+  { title: "Your Honesty", thought: "You say things with sincerity and truth. No pretense. That takes more courage than people realize." },
+  { title: "Your Patience", thought: "With days that feel difficult. With moments that test you. With life when it gets overwhelming. You stay calm and graceful." },
+  { title: "Your Laugh", thought: "It's contagious. It lights up the entire room. And it makes every single heavy thing feel okay." },
+  { title: "Your Quiet Strength", thought: "You carry so much with a gentle heart. You don't give up. Ever. That's not just strength — it's your magic." },
+  { title: "Your Smile", thought: "I could write a whole book about this. One glimpse of it stops time and turns dark days into sunshine." },
+  { title: "Your Tender Heart", thought: "You feel deeply. You love genuinely. In a world that pretends not to care, your warmth is a rare gift." },
+  { title: "Your Grace", thought: "That quiet dignity. That steady, beautiful light in your eyes. You make everyone around you feel valued and safe." },
 ];
 
 export default function ThingsNeverChange() {
