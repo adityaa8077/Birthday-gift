@@ -109,7 +109,7 @@ export default function FinalScene({ onInViewChange }: FinalSceneProps) {
               </p>
               
               <p className="font-inter text-xs text-softIvory/35 pt-10 tracking-widest leading-relaxed">
-                Made with care, affection, and endless admiration for Dear Her.
+                Made with care, affection, and endless admiration for Sandhya (Sandy).
                 <br />
                 © {new Date().getFullYear()} • Dedicated to You ✨
               </p>

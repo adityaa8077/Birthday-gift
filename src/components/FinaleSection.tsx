@@ -23,8 +23,8 @@ export default function FinaleSection() {
         >
           <div className="relative w-full rounded-lg overflow-hidden shadow-2xl border border-warmGold/30 bg-black/40 h-[360px] sm:h-[480px] md:h-[580px]">
             <Image
-              src="/images/dear-her-1.jpeg"
-              alt="Dear Her"
+              src="/images/sandy-7.jpeg"
+              alt="Sandhya (Sandy)"
               fill
               sizes="(max-width: 768px) 100vw, 800px"
               className="object-cover"
@@ -82,7 +82,7 @@ export default function FinaleSection() {
           <div className="inline-block glass rounded-full px-6 sm:px-12 py-3 sm:py-5 border border-warmGold/35 shadow-lg">
             <p className="font-cormorant text-lg sm:text-2xl md:text-4xl text-warmGold flex items-center justify-center gap-2 sm:gap-4">
               <span className="text-3xl sm:text-5xl">✨</span>
-              <span className="italic font-semibold">For Dear Her, with all my heart ✦</span>
+              <span className="italic font-semibold">For Sandhya (Sandy), with all my heart ✦</span>
             </p>
           </div>
         </motion.div>
@@ -98,15 +98,15 @@ export default function FinaleSection() {
             <div className="glass rounded-lg p-6 sm:p-10 md:p-14 border border-warmGold/35 relative shadow-2xl">
               <div className="space-y-6 sm:space-y-8 font-inter text-sm sm:text-base md:text-lg text-softIvory/90 leading-relaxed text-center sm:text-left">
                 <p className="font-playfair text-xl sm:text-2xl md:text-3xl text-warmGold font-semibold text-center mb-4 sm:mb-6">
-                  From Someone Who Believes In You More Than Anyone
+                  From Someone Who Truly Admires You
                 </p>
 
                 <p>
-                  Hey, Dear Her. If you&apos;ve made it this far, thank you. Thank you for walking through this little world with me.
+                  Hey Sandy, if you&apos;ve made it this far, thank you. Thank you for walking through this little world with me.
                 </p>
 
                 <p>
-                  I made this because I wanted you to see yourself through my eyes — even if just for a few moments. To see how deeply you are appreciated, how genuine your kindness is, and how much light you bring into every room just by existing.
+                  I want you to know something from the bottom of my heart: I admire you so much. Watching you, your quiet resilience, your brilliant journey at IIT Jodhpur, your effortless kindness, and the pure warmth you share with the world is truly inspiring. I made this because I wanted you to see yourself through my eyes — even if just for a few moments. To see how deeply you are appreciated, how genuine your kindness is, and how much light you bring into every room just by existing.
                 </p>
 
                 <p>
@@ -114,7 +114,7 @@ export default function FinaleSection() {
                 </p>
 
                 <p className="font-cormorant text-xl sm:text-2xl md:text-3xl text-warmGold italic text-center font-medium pt-2 sm:pt-4">
-                  Thank you for being you, Dear Her. Always. ✨
+                  I admire you so much, Sandy. Thank you for being you, Sandhya. Always. ✨
                 </p>
               </div>
 

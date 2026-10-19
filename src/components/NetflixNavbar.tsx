@@ -36,9 +36,9 @@ export default function NetflixNavbar() {
         <div className="flex items-center gap-6 sm:gap-8">
           <button 
             onClick={() => scrollToSection('hero')} 
-            className="font-playfair text-xl sm:text-2xl md:text-3xl font-bold gold-gradient cursor-pointer tracking-wider text-left"
+            className="font-playfair text-lg sm:text-2xl md:text-3xl font-bold gold-gradient cursor-pointer tracking-wider text-left"
           >
-            DEAR HER
+            SANDHYA (SANDY)
           </button>
           
           <div className="hidden md:flex gap-6 font-inter text-sm">

@@ -43,8 +43,8 @@ export default function HeartBehindBrilliance() {
           >
             <div className="relative w-full h-[360px] sm:h-[460px] md:h-[520px] rounded-lg overflow-hidden shadow-2xl border border-warmGold/20">
               <Image
-                src="/images/dear-her-5.jpeg"
-                alt="Dear Her - Pure Heart"
+                src="/images/sandy-5.jpeg"
+                alt="Sandhya (Sandy) - Pure Heart"
                 fill
                 sizes="(max-width: 768px) 100vw, 40vw"
                 className="object-cover"
@@ -69,15 +69,15 @@ export default function HeartBehindBrilliance() {
 
               <div className="space-y-4 sm:space-y-6 font-inter text-sm sm:text-base md:text-lg text-softIvory/90 leading-relaxed">
                 <p className="font-playfair text-lg sm:text-xl md:text-2xl text-softIvory font-semibold">
-                  To the most beautiful soul I know,
+                  To Sandhya (Sandy), the most beautiful soul I know,
                 </p>
 
                 <p>
-                  People will always notice how effortlessly radiant you look, or how gracefully you carry yourself wherever you go.
+                  People will always notice how effortlessly radiant you look, or how gracefully you carry yourself wherever you go. And watching you work with such sharp intellect and dedication at <span className="text-warmGold font-semibold">IIT Jodhpur</span> is so inspiring.
                 </p>
 
                 <p>
-                  But what moves me most about you isn&apos;t just your beauty — it is the warmth of your heart. The way you make everyone around you feel safe and deeply valued. The effortless gentleness with which you listen, and the quiet comfort you bring just by walking into a room. You don&apos;t just make the world look better; you make it feel softer, warmer, and whole.
+                  <span className="text-warmGold font-semibold">I admire you a lot</span> — not just for your brilliance and beauty, but for the depth of your kindness. The way you make everyone around you feel safe and deeply valued. The effortless gentleness with which you listen, and the quiet comfort you bring just by walking into a room. You don&apos;t just make the world look better; you make it feel softer, warmer, and whole.
                 </p>
               </div>
 

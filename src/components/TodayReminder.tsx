@@ -23,8 +23,8 @@ export default function TodayReminder() {
         >
           <div className="relative w-full h-[360px] sm:h-[460px] md:h-[540px] rounded-lg overflow-hidden shadow-2xl border border-warmGold/25">
             <Image
-              src="/images/dear-her-3.jpeg"
-              alt="Dear Her"
+              src="/images/sandy-3.jpeg"
+              alt="Sandhya (Sandy)"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
@@ -47,12 +47,12 @@ export default function TodayReminder() {
           </span>
 
           <h2 className="font-playfair text-3xl sm:text-4xl md:text-5xl font-bold gold-gradient">
-            Dear You,
+            Dear Sandhya (Sandy),
           </h2>
 
           <div className="space-y-4 sm:space-y-6 font-inter text-sm sm:text-base md:text-lg text-softIvory/90 leading-relaxed">
             <p>
-              I know life can be overwhelming sometimes, and days can feel quiet and heavy — but I see you. I see the gentle strength you carry, the warmth you pour into everyone around you, and the sheer magic of your kind soul.
+              I know life can be overwhelming sometimes, and days can feel quiet and heavy — but I see you. <span className="text-warmGold font-semibold">I admire you a lot</span> — the gentle strength you carry, the warmth you pour into everyone around you, and the sheer magic of your kind soul.
             </p>
             <p>
               And I just want you to know: <span className="text-warmGold font-semibold">you are more wonderful than you could ever imagine.</span>
@@ -61,7 +61,7 @@ export default function TodayReminder() {
               You don&apos;t need to achieve anything or prove anything to be worthy of love and happiness. Just walking into a room, just smiling, just being yourself — you make this world a softer, brighter, and infinitely more beautiful place.
             </p>
             <p className="font-playfair text-lg sm:text-xl text-warmGold font-semibold italic border-l-2 border-warmGold/40 pl-4 py-1 text-left">
-              Never forget how truly special you are.
+              I admire everything you are. Never forget how truly special you are.
             </p>
           </div>
         </motion.div>

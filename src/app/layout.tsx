@@ -28,16 +28,16 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Dear Her ✦",
-  description: "A small corner of the internet, made just for you — to remind you how incredible you already are.",
-  keywords: "dear her, love, confession, appreciation, romance, gratitude, heartfelt letter",
+  title: "Sandhya (Sandy) ✦",
+  description: "A small corner of the internet, made just for Sandhya (Sandy) — to remind you how much you are admired and appreciated.",
+  keywords: "Sandhya, Sandy, admiration, love, confession, appreciation, romance, gratitude, heartfelt letter",
   authors: [{ name: "Made with love by Aditya" }],
   icons: {
     icon: '/favicon.svg',
   },
   openGraph: {
-    title: "Dear Her ✦",
-    description: "Something I should have told you a long time ago.",
+    title: "Sandhya (Sandy) ✦",
+    description: "Something I wanted to tell you from the bottom of my heart.",
     type: "website",
   },
 };

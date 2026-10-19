@@ -61,16 +61,15 @@ export default function HeroSection() {
           loop
           muted
           playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-80 sm:opacity-85 filter brightness-[0.88] contrast-[1.08]"
-          style={{ objectPosition: '50% 18%' }}
+          className="absolute inset-0 w-full h-full object-cover opacity-85 sm:opacity-90 filter brightness-[0.92] contrast-[1.05]"
+          style={{ objectPosition: '50% 15%' }}
         >
-          <source src="/videos/new-video.mp4" type="video/mp4" />
-          <source src="/videos/bg-video.mp4" type="video/mp4" />
+          <source src="/videos/sandy-video.mp4" type="video/mp4" />
         </video>
 
         {/* Soft, Transparent Vignette allowing the face to remain bright and focused */}
-        <div className="absolute inset-0 bg-gradient-to-b from-netflixBlack/35 via-transparent to-deepBlack/95 pointer-events-none" />
-        <div className="absolute inset-0 bg-radial-gradient from-transparent via-deepBlack/15 to-deepBlack/65 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-b from-netflixBlack/30 via-transparent to-deepBlack/95 pointer-events-none" />
+        <div className="absolute inset-0 bg-radial-gradient from-transparent via-deepBlack/10 to-deepBlack/60 pointer-events-none" />
       </motion.div>
 
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto w-full">
@@ -98,9 +97,14 @@ export default function HeroSection() {
           animate={{ opacity: currentLine >= lines.length - 1 ? 1 : 0, scale: 1 }}
           transition={{ delay: 0.6, duration: 1.2 }}
         >
-          <h1 className="font-playfair text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-4 sm:mb-6 leading-tight">
-            <span className="block gold-gradient">Dear Her ✦</span>
+          <h1 className="font-playfair text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-3 sm:mb-5 leading-tight">
+            <span className="block gold-gradient">Sandhya ✦</span>
+            <span className="block text-2xl sm:text-4xl text-warmGold/80 font-cormorant italic mt-1 font-normal tracking-wider">(Sandy)</span>
           </h1>
+
+          <div className="inline-block px-4 py-1 rounded-full border border-warmGold/30 bg-black/40 backdrop-blur-sm mb-4">
+            <span className="text-xs sm:text-sm font-inter tracking-[0.2em] text-warmGold uppercase font-medium">IIT Jodhpur ✦ Brilliant Mind, Pure Heart</span>
+          </div>
 
           <motion.p
             initial={{ opacity: 0, y: 15 }}
@@ -117,7 +121,7 @@ export default function HeroSection() {
             transition={{ delay: 2.2, duration: 1 }}
             className="font-cormorant text-base sm:text-xl md:text-2xl text-warmGold/90 mb-8 sm:mb-12 italic tracking-wide px-2"
           >
-            For the one whose smile turns ordinary moments into poetry ✨
+            I admire you a lot — for who you are, how you shine, and the quiet magic you bring into my life ✨
           </motion.p>
 
           {/* CTA Button */}

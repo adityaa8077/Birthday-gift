@@ -107,10 +107,18 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: 'easeOut' }}
-                className="font-playfair text-3xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 tracking-widest text-warmGold"
+                className="font-playfair text-3xl sm:text-5xl lg:text-6xl font-bold mb-2 sm:mb-3 tracking-widest text-warmGold"
               >
-                Dear Her ✦
+                Sandhya ✦
               </motion.h1>
+              <motion.p
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 0.9 }}
+                transition={{ delay: 0.1, duration: 0.5 }}
+                className="font-cormorant text-xl sm:text-2xl text-warmGold/80 italic mb-4 sm:mb-6 tracking-wider"
+              >
+                (Sandy)
+              </motion.p>
 
               <motion.p
                 initial={{ opacity: 0, y: 15 }}
@@ -118,8 +126,8 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
                 transition={{ delay: 0.15, duration: 0.6, ease: 'easeOut' }}
                 className="font-cormorant text-lg sm:text-2xl leading-relaxed italic text-softIvory/90 mb-8 sm:mb-12 max-w-md px-2"
               >
-                &quot;I made this little corner of the internet...
-                just for you.&quot;
+                &quot;To someone I truly admire with all my heart...
+                I made this little corner of the internet just for you.&quot;
               </motion.p>
 
               <motion.button

@@ -8,8 +8,8 @@ export default function TheQuietGrind() {
 
   const romanticMoments = [
     { 
-      title: "The Soft Strength", 
-      description: "In a world that can feel loud and demanding, you carry a quiet grace. You never have to shout to be felt; your presence alone brings a calming, peaceful warmth." 
+      title: "The Quiet Brilliance • IIT Jodhpur", 
+      description: "Carrying both intellect and grace so effortlessly. Whether working through rigorous challenges at IIT Jodhpur or bringing calm to those around you, your quiet dedication and humble strength are truly inspiring." 
     },
     { 
       title: "The Generous Heart", 

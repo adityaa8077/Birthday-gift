@@ -102,8 +102,8 @@ export default function JourneySection() {
         >
           <div className="relative w-full h-[360px] sm:h-[460px] rounded-lg overflow-hidden shadow-2xl border border-warmGold/20">
             <Image
-              src="/images/dear-her-4.jpeg"
-              alt="Her Grace"
+              src="/images/sandy-4.jpeg"
+              alt="Sandhya (Sandy) - Her Grace"
               fill
               sizes="(max-width: 768px) 100vw, 450px"
               className="object-cover"
