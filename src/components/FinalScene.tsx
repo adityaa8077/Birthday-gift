@@ -58,10 +58,10 @@ export default function FinalScene({ onInViewChange }: FinalSceneProps) {
               className="space-y-3"
             >
               <p className="font-cormorant text-2xl md:text-3xl text-softIvory/85 italic leading-relaxed">
-                &quot;The most beautiful stories don&apos;t rush to their ending.
+                &quot;The most beautiful love stories aren&apos;t written in books.
               </p>
               <p className="font-cormorant text-2xl md:text-3xl text-softIvory/85 italic leading-relaxed">
-                They take their time, one wonderful day at a time.&quot;
+                They&apos;re written in the hearts of people brave enough to feel.&quot;
               </p>
             </motion.div>
           )}
@@ -77,18 +77,18 @@ export default function FinalScene({ onInViewChange }: FinalSceneProps) {
               className="space-y-6 pt-4"
             >
               <p className="font-cormorant text-xl md:text-2xl text-softIvory/70 italic max-w-xl mx-auto leading-relaxed">
-                No matter where life takes you — through every sunrise, every quiet evening, and every dream your heart whispers — I hope this little corner of the internet always reminds you:
+                No matter what happens from here, Dolly — whether this is the start of something or just a moment in time — I want you to always remember:
               </p>
               
               <div className="space-y-2 pt-4">
                 <p className="font-playfair text-2xl md:text-3xl font-bold gold-gradient">
-                  Someone believes in you.
+                  Someone chose you.
                 </p>
                 <p className="font-playfair text-2xl md:text-3xl font-bold gold-gradient">
-                  Someone is so proud of you.
+                  Someone is completely, hopelessly yours.
                 </p>
                 <p className="font-playfair text-2xl md:text-3xl font-bold gold-gradient">
-                  And someone will always be cheering for you.
+                  And someone will always love you exactly as you are.
                 </p>
               </div>
             </motion.div>
@@ -105,13 +105,13 @@ export default function FinalScene({ onInViewChange }: FinalSceneProps) {
               className="pt-10 space-y-8"
             >
               <p className="font-cormorant text-lg md:text-xl text-warmGold tracking-[0.15em] italic">
-                — Forever wishing you happiness, Aditya ❤️
+                — Yours, in every heartbeat, Aditya ❤️
               </p>
               
               <p className="font-inter text-xs text-softIvory/35 pt-10 tracking-widest leading-relaxed">
-                Made with care, affection, and endless admiration for Shatakshi. Happy Birthday! 🎂✨
+                Made with love, code, and a heart full of feelings for Dolly. ♥️
                 <br />
-                © {new Date().getFullYear()} • Dedicated to You ✨
+                © {new Date().getFullYear()} • Dedicated to You, Always ✨
               </p>
             </motion.div>
           )}

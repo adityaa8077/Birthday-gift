@@ -58,7 +58,7 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
         canvas.width / 2, canvas.height / 2, 10,
         canvas.width / 2, canvas.height / 2, Math.max(canvas.width, canvas.height) * 0.6
       );
-      radialGrad.addColorStop(0, 'rgba(212, 175, 55, 0.05)');
+      radialGrad.addColorStop(0, 'rgba(183, 110, 121, 0.06)');
       radialGrad.addColorStop(1, 'rgba(10, 10, 10, 0)');
       ctx.fillStyle = radialGrad;
       ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -107,9 +107,9 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
-                className="inline-block px-4 py-1 rounded-full border border-warmGold/40 bg-warmGold/10 mb-3 text-xs sm:text-sm font-inter tracking-[0.25em] text-warmGold uppercase font-semibold"
+                className="inline-block px-4 py-1.5 rounded-full border border-warmGold/40 bg-warmGold/10 mb-3 text-xs sm:text-sm font-inter tracking-[0.25em] text-warmGold uppercase font-semibold"
               >
-                🎂 Special Birthday Celebration
+                🎂 A Special Birthday Celebration
               </motion.div>
 
               <motion.h1
@@ -118,15 +118,15 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
                 transition={{ duration: 0.6, ease: 'easeOut' }}
                 className="font-playfair text-4xl sm:text-6xl lg:text-7xl font-bold mb-2 sm:mb-3 tracking-wider text-warmGold"
               >
-                Shatakshi ✦
+                Happy Birthday Dolly 🎂✨
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 0.9 }}
                 transition={{ delay: 0.1, duration: 0.5 }}
-                className="font-cormorant text-xl sm:text-2xl text-warmGold/80 italic mb-4 sm:mb-6 tracking-widest"
+                className="font-cormorant text-xl sm:text-2xl text-softIvory/90 italic mb-4 sm:mb-6 tracking-widest"
               >
-                Happy Birthday! ✨
+                Celebrating the Most Beautiful, Radiant Soul ✨
               </motion.p>
 
               <motion.p
@@ -135,8 +135,7 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
                 transition={{ delay: 0.15, duration: 0.6, ease: 'easeOut' }}
                 className="font-cormorant text-lg sm:text-2xl leading-relaxed italic text-softIvory/90 mb-8 sm:mb-12 max-w-md px-2"
               >
-                &quot;To someone truly magical and deeply admired...
-                I made this little corner of the internet just to celebrate you.&quot;
+                &quot;May your special day be filled with endless laughter, gentle peace, and all the immense joy your beautiful heart brings into the world.&quot;
               </motion.p>
 
               <motion.button
@@ -149,7 +148,7 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
                 className="relative px-10 sm:px-14 py-3.5 sm:py-4 rounded border-2 border-warmGold text-warmGold font-inter tracking-[0.25em] uppercase text-xs sm:text-sm font-semibold overflow-hidden group cursor-pointer shadow-[0_0_25px_rgba(212,175,55,0.3)] bg-deepBlack/80"
               >
                 <span className="relative z-10 transition-colors duration-300 group-hover:text-deepBlack">
-                  Enter The Story ✨
+                  Enter Celebration ✨
                 </span>
                 <div className="absolute inset-0 bg-warmGold transform scale-y-0 group-hover:scale-y-100 transition-transform duration-300 origin-bottom z-0"></div>
               </motion.button>
@@ -167,7 +166,7 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
             className="text-center"
           >
             <p className="font-cormorant text-xs sm:text-sm italic tracking-widest text-warmGold/80">
-              Welcome back ✦
+              Welcome back, Dolly ✦
             </p>
           </motion.div>
         </div>

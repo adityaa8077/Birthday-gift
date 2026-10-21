@@ -4,14 +4,14 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 const qualities = [
-  { title: "Your Kindness", thought: "You care about people without thinking twice. That's not common. That's deeply special." },
-  { title: "Your Honesty", thought: "You say things with sincerity and truth. No pretense. That takes more courage than people realize." },
-  { title: "Your Patience", thought: "With days that feel difficult. With moments that test you. With life when it gets overwhelming. You stay calm and graceful." },
-  { title: "Your Laugh", thought: "It's contagious. It lights up the entire room. And it makes every single heavy thing feel okay." },
-  { title: "Your Quiet Strength", thought: "You carry so much with a gentle heart. You don't give up. Ever. That's not just strength — it's your magic." },
-  { title: "Your Smile", thought: "I could write a whole book about this. One glimpse of it stops time and turns dark days into sunshine." },
-  { title: "Your Tender Heart", thought: "You feel deeply. You love genuinely. In a world that pretends not to care, your warmth is a rare gift." },
-  { title: "Your Grace", thought: "That quiet dignity. That steady, beautiful light in your eyes. You make everyone around you feel valued and safe." },
+  { title: "Your Eyes", thought: "When I look into your eyes, I see entire galaxies. They hold warmth, depth, and a kind of beauty that makes my heart ache." },
+  { title: "Your Laugh", thought: "It's the most addictive sound in the universe. It fills rooms, melts hearts, and it's the reason I try to be funny even when I'm not." },
+  { title: "Your Kindness", thought: "You care about people so deeply and so naturally. You don't even realize how rare and precious that is." },
+  { title: "Your Smile", thought: "I could write a whole book about this one. Your smile doesn't just light up rooms — it lights up my entire world." },
+  { title: "Your Voice", thought: "There's something about the way you speak that makes the whole world go quiet. I could listen to you talk about nothing for hours." },
+  { title: "Your Warmth", thought: "You make everyone around you feel safe, valued, and loved. Being near you feels like coming home." },
+  { title: "Your Spirit", thought: "You're strong when life is hard, gentle when people need care, and brave when it matters most. You're extraordinary." },
+  { title: "Your Existence", thought: "The fact that you're alive, breathing, existing on the same planet as me — I'm grateful for that every single day." },
 ];
 
 export default function ThingsNeverChange() {
@@ -42,12 +42,12 @@ export default function ThingsNeverChange() {
           className="text-center mb-16 px-4"
         >
           <span className="font-playfair text-xs tracking-[0.25em] text-warmGold uppercase block mb-4">
-            Things About You That Make You Truly Special
+            Things About You That I Love
           </span>
           <p className="font-cormorant text-2xl md:text-3xl lg:text-4xl text-softIvory font-medium italic leading-relaxed">
-            &quot;In a world full of people trying to be someone else,
+            &quot;I fell for every little thing about you, Dolly.
             <br />
-            you&apos;re perfectly, beautifully, you.&quot;
+            And these are the reasons my heart chose you.&quot;
           </p>
           <div className="w-[60px] h-[1px] bg-warmGold/20 mx-auto mt-8"></div>
         </motion.div>
@@ -89,7 +89,7 @@ export default function ThingsNeverChange() {
           <p className="font-cormorant text-xl md:text-2xl text-softIvory/90 italic leading-relaxed">
             These things will never change. No matter what happens.
             <br />
-            These are the reasons I&apos;ll always believe in you.
+            These are the reasons I&apos;ll always be yours, Dolly.
           </p>
         </motion.div>
 

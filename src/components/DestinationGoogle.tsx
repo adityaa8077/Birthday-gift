@@ -4,30 +4,30 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Image from 'next/image';
 
-const wishes = [
+const destinations = [
   { 
-    name: "Endless Peace", 
-    tagline: "A calm, serene heart", 
-    icon: "🌸", 
-    description: "Quiet mornings, restful nights, and a life where your soul is always at ease and free from burdens." 
+    name: "United Nations Delegate 🌐", 
+    tagline: "A Voice for Humanity on the World Stage", 
+    icon: "🏛️", 
+    description: "Stepping into the grand halls of the UN with unmatched poise, advocating for justice, equality, and peace across nations. A true diplomat whose words carry the weight of change and the warmth of empathy." 
   },
   { 
-    name: "Unconditional Warmth", 
-    tagline: "Cherished for who you are", 
+    name: "Her Own NGO 🕊️", 
+    tagline: "Her Dream, Her Heart, Her Mission", 
+    icon: "🌱", 
+    description: "Founding a non-profit dedicated to uplifting lives, nurturing dreams, and protecting the vulnerable. Building a sanctuary of hope and kindness that will touch countless generations." 
+  },
+  { 
+    name: "Healing & Making The World Happy 💛", 
+    tagline: "Spreading Sunshine Where It's Needed Most", 
     icon: "✨", 
-    description: "Surrounded by people who protect, appreciate, and treasure the softness of your gentle heart." 
+    description: "Bringing warmth into spaces that felt forgotten. Showing the world that gentleness is the greatest strength, and making millions of hearts feel safe, cherished, and genuinely happy." 
   },
   { 
-    name: "A Path of Flowers", 
-    tagline: "Beyond what you ever imagined", 
-    icon: "🌙", 
-    description: "Every quiet wish you whisper to the universe unfolding in the most beautiful, magical ways." 
-  },
-  { 
-    name: "Infinite Reasons to Smile", 
-    tagline: "That miracle smile", 
-    icon: "🤍", 
-    description: "Because that smile of yours is one of the world's greatest miracles, and you deserve endless joy." 
+    name: "A Glorious Future Ahead 🚀", 
+    tagline: "Every Whisper of Your Heart Coming True", 
+    icon: "👑", 
+    description: "Watching you conquer every goal you ever dreamed of, walking your path with radiance and courage, while I stand right beside you — proud, in awe, and cheering you on forever." 
   },
 ];
 
@@ -49,33 +49,33 @@ export default function DestinationGoogle() {
           className="text-center mb-12 sm:mb-16"
         >
           <span className="font-playfair text-[10px] tracking-[0.3em] text-warmGold uppercase block mb-2">
-            My Wishes For You
+            Her Destiny & Calling
           </span>
           <h2 className="font-playfair text-3xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 gold-gradient">
-            All The Beauty You Deserve
+            Destined To Change The World 🌍✨
           </h2>
-          <p className="font-cormorant text-lg sm:text-xl md:text-2xl text-softIvory/70 italic max-w-2xl mx-auto px-2">
-            &quot;I truly hope that wherever life takes you, it lays out a path of flowers for you.&quot;
+          <p className="font-cormorant text-lg sm:text-xl md:text-2xl text-softIvory/80 italic max-w-2xl mx-auto px-2">
+            &quot;The world doesn&apos;t just need leaders — it needs someone with your pure heart to make it happy.&quot;
           </p>
           <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-warmGold to-transparent mx-auto mt-4 sm:mt-6"></div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-12 sm:mb-16">
-          {wishes.map((dest, idx) => (
+          {destinations.map((dest, idx) => (
             <motion.div
               key={idx}
               initial={{ opacity: 0, y: 25 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: idx * 0.12 }}
-              className="glass rounded-lg p-6 sm:p-8 border border-warmGold/15 hover:border-warmGold/40 transition-all duration-300 group"
+              className="glass rounded-xl p-6 sm:p-8 border border-warmGold/20 hover:border-warmGold/50 transition-all duration-300 group hover:-translate-y-1 bg-[#120e16]/40 backdrop-blur-md shadow-[0_8px_30px_rgba(0,0,0,0.4)]"
             >
               <div className="flex items-center gap-4 mb-3 sm:mb-4">
-                <span className="text-3xl sm:text-4xl">{dest.icon}</span>
+                <span className="text-3xl sm:text-4xl filter drop-shadow-[0_0_12px_rgba(212,175,55,0.4)]">{dest.icon}</span>
                 <div>
                   <h3 className="font-playfair text-xl sm:text-2xl font-bold text-softIvory group-hover:text-warmGold transition-colors">
                     {dest.name}
                   </h3>
-                  <p className="font-inter text-xs sm:text-sm text-warmGold/70 italic">{dest.tagline}</p>
+                  <p className="font-inter text-xs sm:text-sm text-warmGold/80 italic font-medium">{dest.tagline}</p>
                 </div>
               </div>
               <p className="font-inter text-sm sm:text-base text-softIvory/80 leading-relaxed">
@@ -92,19 +92,30 @@ export default function DestinationGoogle() {
           transition={{ duration: 1.2, delay: 0.3 }}
           className="relative w-full max-w-2xl mx-auto"
         >
-          <div className="relative w-full h-[320px] sm:h-[420px] md:h-[480px] rounded-lg overflow-hidden shadow-2xl border border-warmGold/20">
+          <div className="relative w-full h-[380px] sm:h-[480px] md:h-[560px] rounded-xl overflow-hidden shadow-2xl border border-warmGold/30 bg-[#0c090e]">
+            {/* Ambient blur background */}
             <Image
-              src="/images/shatakshi-2.jpeg"
-              alt="Shatakshi - Radiant Grace"
+              src="/images/dolly-2.jpeg"
+              alt=""
+              fill
+              sizes="100px"
+              className="object-cover filter blur-xl opacity-35 scale-110"
+            />
+            {/* Full photo completely visible */}
+            <Image
+              src="/images/dolly-2.jpeg"
+              alt="Dolly - Destined For Greatness"
               fill
               sizes="(max-width: 768px) 100vw, 650px"
-              className="object-cover"
-              style={{ objectPosition: '50% 15%' }}
+              className="object-contain z-10"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-deepBlack/80 via-deepBlack/20 to-transparent pointer-events-none"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-deepBlack/90 via-deepBlack/20 to-transparent pointer-events-none z-20"></div>
             <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6 text-center sm:text-left">
-              <p className="font-cormorant text-lg sm:text-2xl text-softIvory italic font-medium">
-                &quot;Somewhere out there is someone who thanks the stars every single night, just because you exist.&quot;
+              <span className="text-xs uppercase tracking-widest text-warmGold font-semibold block mb-1">
+                A Promise From Aditya
+              </span>
+              <p className="font-cormorant text-lg sm:text-2xl text-softIvory italic font-medium leading-relaxed">
+                &quot;I see your future so clearly, Dolly. You&apos;re going to touch millions of lives, and I will be here loving, protecting, and believing in you every single day.&quot;
               </p>
             </div>
           </div>

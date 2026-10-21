@@ -5,63 +5,63 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const letters = [
   {
-    trigger: "Tired",
-    title: "Open When You're Tired",
+    trigger: "Miss Me",
+    title: "Open When You Miss Me",
     content: [
-      "Hey. Put the worries down. Close your eyes. Step back from the noise of the world.",
-      "I know you carry so much so gracefully. But even the gentlest soul needs rest.",
-      "You don't have to carry the whole universe on your shoulders. You have already made today more beautiful just by existing in it.",
-      "Rest now. Tomorrow can wait. Take care of your gentle heart — it means the world to me."
+      "Hey Dolly. So you miss me? That honestly just made my entire day.",
+      "Close your eyes and think of the last time we laughed together. Feel it? I'm right there, in that warmth.",
+      "Distance doesn't change how I feel about you. Not even a little. You're always with me — in my thoughts, in my heartbeat, in every song I listen to.",
+      "I'll be there soon. And when I am, I'm never letting go. ♥️"
     ]
   },
   {
-    trigger: "Doubt Yourself",
-    title: "Open When You Doubt Yourself",
+    trigger: "Can't Sleep",
+    title: "Open When You Can't Sleep",
     content: [
-      "So you're sitting there wondering if you're enough. Let me answer that for you: you are more than enough.",
-      "You are precious, rare, and deeply cherished. You have a kindness and warmth that lights up entire rooms without you even realizing it.",
-      "Doubt is just a passing shadow. It can never dim the sheer beauty of who you are.",
-      "I believe in you with all my heart. Even on the days you forget how extraordinary you are. Especially on those days."
+      "Hey, night owl. Can't sleep? Me neither, probably — I'm probably thinking about you right now too.",
+      "Put down the phone. Close your eyes. Imagine me right there beside you, telling you that everything is going to be okay.",
+      "You are safe. You are loved. And someone out there is falling asleep with your name in their heart.",
+      "Sweet dreams, Dolly. I hope I'm in them. 💕"
     ]
   },
   {
-    trigger: "Heart Feels Heavy",
-    title: "Open When Your Heart Feels Heavy",
+    trigger: "Feel Sad",
+    title: "Open When You Feel Sad",
     content: [
-      "I know some days feel overwhelming. Some days feel like too much to hold all at once.",
-      "Take a gentle, slow breath. Remember that you are safe, and your worth has never depended on being perfect or pleasing anyone.",
-      "You are allowed to rest. You are allowed to be vulnerable. You don't have to face anything alone.",
-      "Whenever life feels heavy, close your eyes and remember: someone out there is wishing only peace and flowers for your path."
+      "I know some days are heavy. Some moments feel like too much. And that's okay, Dolly.",
+      "But I need you to hear this: you are the strongest, bravest, most incredible person I know. And even on your worst day, you're still my favorite person.",
+      "Let yourself feel what you're feeling. Then let it go. Because better days are coming — I promise you that.",
+      "And whenever you need a safe place to land, my heart is right here. Always. ♥️"
     ]
   },
   {
-    trigger: "Need to Smile",
-    title: "Open When You Need to Smile",
+    trigger: "Need Confidence",
+    title: "Open When You Need Confidence",
     content: [
-      "Did you know your smile is honestly one of my favorite miracles in this world? I'm not even exaggerating.",
-      "When you smile, everything stops. It feels like the world takes a quiet breath just to admire it.",
-      "No matter what kind of day it has been, seeing you smile makes even my hardest days instantly lighter.",
-      "There it is. See? The world is brighter already. Never forget how much light you bring into this life."
+      "Listen to me, Dolly. You are INCREDIBLE. And I mean that with every fiber of my being.",
+      "You have this light inside you that doesn't dim for anyone. You walk into rooms and make them better just by being there.",
+      "Whatever you're about to do — that test, that conversation, that scary decision — you've got this. You've always had this.",
+      "Now go be the extraordinary person you are. I'm cheering you on with everything I've got. 🌟"
     ]
   },
   {
-    trigger: "Feel Lonely",
-    title: "Open When You Feel Lonely",
+    trigger: "Need A Smile",
+    title: "Open When You Need A Smile",
     content: [
-      "Hey. If you're reading this, you might be having one of those quiet nights where everything feels a little too still.",
-      "Please remember this: you are never alone. Not really. You are always held in my warmest thoughts.",
-      "I made this little corner of the internet so you would always have a place that reminds you of how much you are cherished.",
-      "Someone thanks the stars every single night, just because you exist."
+      "Fun fact: your smile is literally the 8th wonder of the world. Scientists are baffled. Countries are fighting over it.",
+      "Did that work? Are you smiling yet? Because if you are, then my entire purpose in life is fulfilled.",
+      "Here's another fact: I like you so much that I'd sit through a 3-hour movie I hate just to see you happy watching it.",
+      "There's that smile. See? My day just got 10000x better. ✨"
     ]
   },
   {
-    trigger: "Celebrate",
-    title: "Open When You Have Something to Celebrate",
+    trigger: "Feel Loved",
+    title: "Open When You Want To Feel Loved",
     content: [
-      "I AM SO HAPPY FOR YOU! Look at that radiant smile of yours!",
-      "Seeing you happy, seeing your eyes sparkle with joy, is honestly the greatest sight in the universe.",
-      "You deserve every good thing, every ounce of happiness, and every beautiful dream that comes your way.",
-      "I am cheering for you always. Today, tomorrow, and every day that follows. ✨"
+      "Dolly, if you're reading this, I want you to know something important:",
+      "You are loved. Not because of what you do or how you look. You are loved for who you ARE — every flaw, every quirk, every beautiful imperfection.",
+      "I choose you. In every mood, every season, every version of yourself. You are the one my heart keeps choosing.",
+      "And that, my beautiful Dolly, will never, ever change. ♥️"
     ]
   },
 ];
@@ -78,6 +78,20 @@ export default function OpenWhenLetters({ onConfessionOpen }: OpenWhenLettersPro
       id="open-when"
       className="relative py-16 sm:py-24 px-4 sm:px-6 bg-gradient-to-b from-netflixBlack via-deepBlack to-netflixBlack overflow-hidden"
     >
+      {/* Ambient background video */}
+      <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none opacity-15">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover filter blur-[2px] brightness-60"
+        >
+          <source src="/videos/dolly-video-2.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-b from-netflixBlack/90 via-deepBlack/80 to-netflixBlack/90 pointer-events-none" />
+      </div>
+
       <div className="max-w-5xl mx-auto relative z-10 w-full">
         <div className="text-center mb-12 sm:mb-20">
           <motion.h2
@@ -96,7 +110,7 @@ export default function OpenWhenLetters({ onConfessionOpen }: OpenWhenLettersPro
             transition={{ delay: 0.3, duration: 1.2 }}
             className="font-cormorant text-lg sm:text-xl md:text-2xl text-softIvory/70 italic max-w-2xl mx-auto px-2"
           >
-            &quot;Letters for the days you need them most. From someone who&apos;ll always care.&quot;
+            &quot;Letters I wrote for you, Dolly — for every mood, every moment, every day you need to hear how loved you are.&quot;
           </motion.p>
           <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-warmGold to-transparent mx-auto mt-4 sm:mt-6"></div>
         </div>
@@ -161,7 +175,7 @@ export default function OpenWhenLetters({ onConfessionOpen }: OpenWhenLettersPro
             <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-roseGold to-transparent" />
 
             <h3 className="font-playfair text-lg sm:text-2xl font-bold text-blushPink group-hover:text-white transition-colors duration-300 z-10 text-center leading-snug">
-              Open When It&apos;s Your Birthday ✦ A Letter From The Heart
+              Open When You&apos;re Ready For My Confession ♥️
             </h3>
 
             <div className="flex justify-center items-center py-3 sm:py-4 z-10">
@@ -170,13 +184,13 @@ export default function OpenWhenLetters({ onConfessionOpen }: OpenWhenLettersPro
                 animate={{ scale: [1, 1.1, 1] }}
                 transition={{ duration: 1.4, repeat: Infinity, ease: 'easeInOut' }}
               >
-                <span className="text-white text-xl sm:text-2xl select-none">🎂</span>
+                <span className="text-white text-xl sm:text-2xl select-none">💌</span>
                 <div className="absolute inset-1 rounded-full border border-white/30 opacity-60"></div>
               </motion.div>
             </div>
 
             <span className="font-cormorant text-sm sm:text-base italic text-blushPink/75 text-center tracking-widest block z-10 border-t border-roseGold/20 pt-2 group-hover:text-blushPink transition-colors duration-300">
-              &quot;A special keepsake written just for you on your birthday.&quot;
+              &quot;Something I&apos;ve been wanting to tell you for so long…&quot;
             </span>
           </motion.div>
         </motion.div>
@@ -189,8 +203,20 @@ export default function OpenWhenLetters({ onConfessionOpen }: OpenWhenLettersPro
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setActiveLetter(null)}
-              className="fixed inset-0 z-[110] bg-black/90 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6 cursor-zoom-out"
+              className="fixed inset-0 z-[110] bg-black/92 backdrop-blur-md flex items-center justify-center p-4 sm:p-6 cursor-zoom-out"
             >
+              {/* Ambient video in background of modal */}
+              <div className="absolute inset-0 pointer-events-none opacity-20 overflow-hidden">
+                <video
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="w-full h-full object-cover filter blur-[2px]"
+                >
+                  <source src="/videos/dolly-video-5.mp4" type="video/mp4" />
+                </video>
+              </div>
               <motion.div
                 initial={{ scale: 0.92, y: 20 }}
                 animate={{ scale: 1, y: 0 }}
@@ -228,9 +254,9 @@ export default function OpenWhenLetters({ onConfessionOpen }: OpenWhenLettersPro
 
                 <div className="border-t border-[#E8DFD0] pt-4 sm:pt-6 mt-4 sm:mt-6 text-center ml-4 sm:ml-6">
                   <p className="font-cormorant text-sm sm:text-base text-[#8C7A6B] italic">
-                    Always here for you. Always.
+                    Always yours, Dolly. Always.
                   </p>
-                  <span className="text-lg sm:text-xl inline-block mt-2 select-none">💫</span>
+                  <span className="text-lg sm:text-xl inline-block mt-2 select-none">♥️</span>
                 </div>
               </motion.div>
             </motion.div>

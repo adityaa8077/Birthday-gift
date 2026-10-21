@@ -6,32 +6,32 @@ import Image from 'next/image';
 
 const visionItems = [
   {
-    title: "Carefree Happiness",
-    description: "Picture this: a warm, sunlit afternoon with a gentle breeze, and you laughing freely without a single worry on your mind. Completely at ease, peaceful, and radiant.",
-    image: "/images/shatakshi-1.jpeg",
-    objectPos: "50% 15%",
-    quote: "\"Your happiness is honestly the most beautiful sight in the universe.\""
-  },
-  {
-    title: "Deeply Cherished",
-    description: "A life where every ounce of kindness and warmth you have given to others returns to you tenfold. Where your tender heart is always safe, valued, and understood.",
-    image: "/images/shatakshi-2.jpeg",
-    objectPos: "50% 15%",
-    quote: "\"You deserve all the joy and warmth you give away so selflessly.\""
-  },
-  {
-    title: "Quiet Sunsets & Wonder",
-    description: "Exploring beautiful places, watching golden skies, and feeling that every step of your life is unfolding into something breathtaking and magical.",
-    image: "/images/shatakshi-3.jpeg",
+    title: "Us, Together",
+    description: "Picture this: a warm evening, golden light, your head on my shoulder, and absolutely nowhere else we'd rather be. Just us. Just this. Just perfect.",
+    image: "/images/dolly-2.jpeg",
     objectPos: "50% 10%",
-    quote: "\"May the universe always lay out a path of flowers for your feet.\""
+    quote: "\"I don't dream about places anymore. I dream about moments — and they all have you in them.\""
   },
   {
-    title: "Peace in Every Tomorrow",
-    description: "Knowing deep down that you are enough, that your presence alone lights up rooms, and that someone out there will always be cheering for you from the bottom of their heart.",
-    image: "/images/shatakshi-4.jpeg",
-    objectPos: "50% 32%",
-    quote: "\"Someone who thanks the stars every single night, just because you exist.\""
+    title: "Your Happiness",
+    description: "I want to see you laughing so hard your stomach hurts. I want to see you chasing your wildest dreams with that fire in your eyes. I want to see you happy — truly, deeply, completely happy.",
+    image: "/images/dolly-4.jpeg",
+    objectPos: "50% 12%",
+    quote: "\"Your happiness is the only thing I'd spend my entire life working for.\""
+  },
+  {
+    title: "Our Adventures",
+    description: "Road trips with terrible singing, late-night conversations about everything and nothing, discovering beautiful places together. Every adventure is better with you.",
+    image: "/images/dolly-6.jpeg",
+    objectPos: "50% 10%",
+    quote: "\"The world is beautiful, but it's most beautiful when I'm seeing it with you.\""
+  },
+  {
+    title: "Growing Old Together",
+    description: "I don't just want today. I want every tomorrow. I want to be the person who still looks at you the same way I do now — with absolute wonder — even when we're old and grey.",
+    image: "/images/dolly-12.jpeg",
+    objectPos: "50% 12%",
+    quote: "\"My forever starts with you. It always has.\""
   },
 ];
 
@@ -52,13 +52,13 @@ export default function VisionBook() {
           className="text-center mb-12 sm:mb-16"
         >
           <span className="font-playfair text-[10px] tracking-[0.3em] text-warmGold uppercase block mb-2">
-            Wishes For Your Tomorrow
+            Dreams I Have About Us
           </span>
           <h2 className="font-playfair text-3xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 gold-gradient">
-            Visions of Your Happiness
+            Visions of Our Tomorrow
           </h2>
           <p className="font-cormorant text-lg sm:text-xl md:text-2xl text-softIvory/70 italic max-w-2xl mx-auto px-2">
-            &quot;Close your eyes. Imagine all the peace and joy waiting for you. You deserve every bit of it.&quot;
+            &quot;Close your eyes, Dolly. Imagine all the beautiful things waiting for us.&quot;
           </p>
           <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-warmGold to-transparent mx-auto mt-4 sm:mt-6"></div>
         </motion.div>
@@ -74,16 +74,22 @@ export default function VisionBook() {
               onClick={() => setActiveVision(idx)}
               className="group cursor-pointer relative rounded-lg overflow-hidden border border-warmGold/20 hover:border-warmGold/60 transition-all duration-300 shadow-lg active:scale-98 bg-[#111]"
             >
-              <div className="relative w-full h-[260px] sm:h-[320px]">
+              <div className="relative w-full h-[280px] sm:h-[340px] bg-[#0c090e] overflow-hidden">
+                <Image
+                  src={item.image}
+                  alt=""
+                  fill
+                  sizes="100px"
+                  className="object-cover filter blur-lg opacity-35 scale-110"
+                />
                 <Image
                   src={item.image}
                   alt={item.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105 filter brightness-[0.75] group-hover:brightness-[0.95]"
-                  style={{ objectPosition: item.objectPos }}
+                  className="object-contain transition-transform duration-500 group-hover:scale-105 filter brightness-[0.95] z-10"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-deepBlack/90 via-deepBlack/30 to-transparent pointer-events-none"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-deepBlack/90 via-deepBlack/20 to-transparent pointer-events-none z-20"></div>
               </div>
               <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
                 <h3 className="font-playfair text-lg sm:text-xl font-bold text-softIvory group-hover:text-warmGold transition-colors mb-1 sm:mb-2">
@@ -115,16 +121,22 @@ export default function VisionBook() {
                 onClick={(e) => e.stopPropagation()}
                 className="w-full max-w-xl glass rounded-lg border border-warmGold/30 shadow-2xl overflow-hidden cursor-default max-h-[90vh] overflow-y-auto"
               >
-                <div className="relative w-full h-[240px] sm:h-[300px]">
+                <div className="relative w-full h-[300px] sm:h-[380px] bg-[#0c090e] overflow-hidden">
+                  <Image
+                    src={visionItems[activeVision].image}
+                    alt=""
+                    fill
+                    sizes="100px"
+                    className="object-cover filter blur-lg opacity-35 scale-110"
+                  />
                   <Image
                     src={visionItems[activeVision].image}
                     alt={visionItems[activeVision].title}
                     fill
                     sizes="100vw"
-                    className="object-cover filter brightness-[0.85]"
-                    style={{ objectPosition: visionItems[activeVision].objectPos }}
+                    className="object-contain filter brightness-[0.95] z-10"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-deepBlack/80 via-transparent to-transparent pointer-events-none" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-deepBlack/80 via-transparent to-transparent pointer-events-none z-20" />
                   <button
                     onClick={() => setActiveVision(null)}
                     className="absolute top-4 right-4 text-softIvory/80 hover:text-warmGold transition-colors p-2 cursor-pointer z-20 glass rounded-full"

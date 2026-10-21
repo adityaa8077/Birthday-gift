@@ -5,28 +5,28 @@ import { motion } from 'framer-motion';
 
 export default function BirthdayTimer() {
   const [timeData, setTimeData] = useState({
-    years: 0,
-    months: 0,
+    years: 2,
+    months: 8,
     days: 0,
     hours: 0,
     minutes: 0,
     seconds: 0,
-    totalDays: 0,
+    totalDays: 975,
   });
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
-    // 21 October 2007, 00:00:00 IST
-    const birthDate = new Date('2007-10-21T00:00:00');
 
     const updateTimer = () => {
       const now = new Date();
-      const diffMs = Math.max(0, now.getTime() - birthDate.getTime());
+      // Reference date: exactly 2 years and 8 months prior
+      const startDate = new Date(now.getFullYear() - 2, now.getMonth() - 8, 1, 0, 0, 0);
+      const diffMs = Math.max(0, now.getTime() - startDate.getTime());
 
-      let years = now.getFullYear() - birthDate.getFullYear();
-      let months = now.getMonth() - birthDate.getMonth();
-      let days = now.getDate() - birthDate.getDate();
+      let years = now.getFullYear() - startDate.getFullYear();
+      let months = now.getMonth() - startDate.getMonth();
+      let days = now.getDate() - startDate.getDate();
 
       if (days < 0) {
         months -= 1;
@@ -45,9 +45,9 @@ export default function BirthdayTimer() {
       const totalDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
 
       setTimeData({
-        years,
-        months,
-        days,
+        years: 2,
+        months: 8,
+        days: Math.abs(days),
         hours,
         minutes,
         seconds,
@@ -63,12 +63,12 @@ export default function BirthdayTimer() {
   if (!mounted) return null;
 
   const timerUnits = [
-    { label: 'Years', value: timeData.years, subtext: 'of pure brilliance' },
-    { label: 'Months', value: timeData.months, subtext: 'of endless charm' },
-    { label: 'Days', value: timeData.days, subtext: 'of gentle warmth' },
-    { label: 'Hours', value: timeData.hours, subtext: 'of quiet strength' },
-    { label: 'Minutes', value: timeData.minutes, subtext: 'of radiant laughter' },
-    { label: 'Seconds', value: timeData.seconds, subtext: 'of ticking magic' },
+    { label: 'Years', value: 2, subtext: 'years of pure adoration' },
+    { label: 'Months', value: 8, subtext: 'months of endless smiles' },
+    { label: 'Days', value: timeData.days, subtext: 'days of cherished memories' },
+    { label: 'Hours', value: timeData.hours, subtext: 'hours of thinking of you' },
+    { label: 'Minutes', value: timeData.minutes, subtext: 'minutes of gentle prayers' },
+    { label: 'Seconds', value: timeData.seconds, subtext: 'seconds and counting...' },
   ];
 
   return (
@@ -86,18 +86,19 @@ export default function BirthdayTimer() {
           transition={{ duration: 1 }}
           className="mb-10 sm:mb-14"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-warmGold/35 bg-warmGold/10 backdrop-blur-md mb-4 shadow-[0_0_20px_rgba(212,175,55,0.2)]">
-            <span className="text-sm">🎂</span>
+          <div className="inline-flex items-center gap-2 px-5 py-1.5 rounded-full border border-warmGold/35 bg-warmGold/10 backdrop-blur-md mb-4 shadow-[0_0_20px_rgba(212,175,55,0.2)]">
+            <span className="text-sm">✨</span>
             <span className="text-xs sm:text-sm font-inter tracking-[0.2em] text-warmGold uppercase font-semibold">
-              Since 21 October 2007
+              2 Years & 8 Months ✦ Cherishing Dolly
             </span>
+            <span className="text-sm">✨</span>
           </div>
 
           <h2 className="font-playfair text-3xl sm:text-5xl md:text-6xl font-bold mb-4 gold-gradient">
-            Lighting Up The World
+            How Long I've Adored You
           </h2>
           <p className="font-cormorant text-lg sm:text-2xl text-softIvory/80 italic max-w-2xl mx-auto px-4">
-            &quot;Every single second since 21st October 2007, the universe has been a softer, kinder, and infinitely more beautiful place because of you.&quot;
+            &quot;2 Years, 8 Months — and counting every single second of loving your smile, your warmth, and the gentle soul you are, Dolly.&quot;
           </p>
           <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-warmGold to-transparent mx-auto mt-6"></div>
         </motion.div>
@@ -139,7 +140,7 @@ export default function BirthdayTimer() {
         >
           <p className="font-cormorant text-base sm:text-xl md:text-2xl text-softIvory/90 italic flex items-center justify-center gap-2 sm:gap-3 flex-wrap">
             <span>✨</span>
-            <span>Over <strong className="gold-gradient font-playfair font-bold text-xl sm:text-2xl not-italic">{timeData.totalDays.toLocaleString()}</strong> days of pure grace, kind smiles & blessings</span>
+            <span><strong className="gold-gradient font-playfair font-bold text-xl sm:text-2xl not-italic">2 Years & 8 Months</strong> of having you as my favorite person in the entire universe ♥️</span>
             <span>✨</span>
           </p>
         </motion.div>

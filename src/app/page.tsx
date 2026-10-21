@@ -22,6 +22,7 @@ import DreamsWorthChasing from '@/components/DreamsWorthChasing';
 import VisionBook from '@/components/VisionBook';
 import ThingsNeverChange from '@/components/ThingsNeverChange';
 import MemoryGarden from '@/components/MemoryGarden';
+import CinematicReels from '@/components/CinematicReels';
 import OpenWhenLetters from '@/components/OpenWhenLetters';
 import HeartbeatConfession from '@/components/HeartbeatConfession';
 import WhenLifeFeelsHeavy from '@/components/WhenLifeFeelsHeavy';
@@ -87,6 +88,7 @@ export default function Home() {
         {/* Story & Keepsake Sections */}
         <HeroSection />
         <BirthdayTimer />
+        <CinematicReels />
         <TodayReminder />
         <JourneySection />
         <TheQuietGrind />

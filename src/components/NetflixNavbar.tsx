@@ -38,24 +38,24 @@ export default function NetflixNavbar() {
             onClick={() => scrollToSection('hero')} 
             className="font-playfair text-lg sm:text-2xl md:text-3xl font-bold gold-gradient cursor-pointer tracking-wider text-left"
           >
-            SHATAKSHI ✦
+            DOLLY ✦
           </button>
           
           <div className="hidden md:flex gap-6 font-inter text-sm">
             <button onClick={() => scrollToSection('hero')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
               Home
             </button>
-            <button onClick={() => scrollToSection('quiet-grind')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
-              Her Grace
+            <button onClick={() => scrollToSection('journey')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
+              Our Journey
             </button>
-            <button onClick={() => scrollToSection('visionary-action')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
-              Her Presence
+            <button onClick={() => scrollToSection('vision-book')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
+              Vision Book
             </button>
-            <button onClick={() => scrollToSection('destination-google')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
-              Wishes For You
+            <button onClick={() => scrollToSection('memory-garden')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
+              Moments
             </button>
-            <button onClick={() => scrollToSection('heart-behind-brilliance')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
-              Her Heart
+            <button onClick={() => scrollToSection('cinematic-reels')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
+              Reels 🎬
             </button>
             <button onClick={() => scrollToSection('open-when')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
               Letters

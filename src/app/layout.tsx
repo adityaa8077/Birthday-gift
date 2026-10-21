@@ -28,16 +28,16 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Happy Birthday Shatakshi 🎂✨",
-  description: "A small corner of the internet, made just for Shatakshi — celebrating your special day and the beautiful soul you are.",
-  keywords: "Shatakshi, Happy Birthday, 21 October 2007, celebration, birthday wish, admiration, heartfelt letter",
+  title: "For My Dolly 💝 | Made With Love",
+  description: "A small corner of the internet, made just for Dolly — a love confession, memories, and celebrating the most beautiful soul.",
+  keywords: "Dolly, Love Confession, Romantic, Aditya, Memories, Kept in My Heart",
   authors: [{ name: "Made with love by Aditya" }],
   icons: {
     icon: '/favicon.svg',
   },
   openGraph: {
-    title: "Happy Birthday Shatakshi 🎂✨",
-    description: "A heartfelt birthday celebration made just for you.",
+    title: "For My Dolly 💝 | Made With Love",
+    description: "Every second with you is a memory I'll treasure forever.",
     type: "website",
   },
 };
