@@ -9,7 +9,7 @@ const journeySteps = [
   { 
     title: "The Day Everything Changed", 
     description: "I still remember it — the exact moment I first saw you. My heart skipped. My world tilted. And nothing, absolutely nothing, has been the same since. You walked into my life and rewrote the entire story.",
-    image: "/images/dolly-2.jpeg",
+    image: "/images/arpita-2.jpeg",
     goldenQuote: "And in that single second, every star in the sky rearranged itself just for you. My heart knew before my mind even understood.",
     goldenSubtext: "You were the quiet beginning of every beautiful thing in my life.",
     flower: "🌸",
@@ -17,7 +17,7 @@ const journeySteps = [
   { 
     title: "Falling Without Realizing", 
     description: "I didn't plan to fall for you. It wasn't a decision. It was like gravity — quiet, powerful, and absolutely unstoppable. Every laugh, every look, every small moment pulled me closer until I realized: I was already completely, hopelessly yours.",
-    image: "/images/dolly-3.jpeg",
+    image: "/images/arpita-3.jpeg",
     goldenQuote: "Loving you was never a conscious choice; it was the sweetest and most inevitable surrender of my life.",
     goldenSubtext: "I fell for the softness of your voice and the unspoken kindness in your eyes.",
     flower: "🌷",
@@ -25,7 +25,7 @@ const journeySteps = [
   { 
     title: "The Way You Make Me Feel", 
     description: "When you're near, the whole world goes quiet. My heartbeat gets louder. My thoughts get softer. You make even the most ordinary moments feel like poetry — like the universe wrote them just for us.",
-    image: "/images/dolly-4.jpeg",
+    image: "/images/arpita-4.jpeg",
     goldenQuote: "With you, even the silence feels like the most sacred love song. Your presence is my favorite safe haven.",
     goldenSubtext: "You turned my chaotic world into a place of peace.",
     flower: "🌺",
@@ -33,15 +33,15 @@ const journeySteps = [
   { 
     title: "What I See When I Look At You", 
     description: "I see the most beautiful soul I've ever known. I see kindness that doesn't ask for anything in return. I see strength wrapped in gentleness. I see the person I want to wake up choosing, every single day, for the rest of my life.",
-    image: "/images/dolly-5.jpeg",
+    image: "/images/arpita-5.jpeg",
     goldenQuote: "In a universe of billions, my eyes will always search for you and only you. You are more precious than any words I could ever write.",
     goldenSubtext: "A rare soul, an extraordinary heart, a girl like no other.",
     flower: "🌹",
   },
   { 
     title: "The Promise I'm Making", 
-    description: "I may not be perfect, but my feelings for you are the most real thing I've ever felt. I promise to choose you — in silence and in noise, in sunshine and in storms. You are my favorite person, Dolly, and you always will be.",
-    image: "/images/dolly-6.jpeg",
+    description: "I may not be perfect, but my feelings for you are the most real thing I've ever felt. I promise to choose you — in silence and in noise, in sunshine and in storms. You are my favorite person, Arpita, and you always will be.",
+    image: "/images/arpita-6.jpeg",
     goldenQuote: "My promise to you isn't just for easy days. It's for every day. Through every storm and every sunset, I will choose you.",
     goldenSubtext: "You will never have to doubt how deeply and genuinely you are loved.",
     flower: "💐",
@@ -50,23 +50,6 @@ const journeySteps = [
 
 export default function JourneySection() {
   const [ref, inView] = useInView({ threshold: 0.08, triggerOnce: true });
-  const [isStoryVideoPlaying, setIsStoryVideoPlaying] = useState(false);
-  const storyVideoRef = useRef<HTMLVideoElement>(null);
-
-  const toggleStoryVideo = () => {
-    if (!storyVideoRef.current) return;
-    if (storyVideoRef.current.paused) {
-      storyVideoRef.current.muted = false;
-      storyVideoRef.current.play().catch(() => {
-        storyVideoRef.current!.muted = true;
-        storyVideoRef.current!.play().catch(() => {});
-      });
-      setIsStoryVideoPlaying(true);
-    } else {
-      storyVideoRef.current.pause();
-      setIsStoryVideoPlaying(false);
-    }
-  };
 
   return (
     <section
@@ -112,38 +95,27 @@ export default function JourneySection() {
         >
           <div className="text-center mb-4">
             <span className="text-xs sm:text-sm font-inter uppercase tracking-[0.25em] text-roseGold font-semibold">
-              🎬 Prologue ✦ Watch Our Story In Motion
+              📸 Prologue ✦ The Beginning of Something Beautiful
             </span>
           </div>
 
           <div className="relative w-full h-[360px] sm:h-[480px] md:h-[540px] rounded-2xl overflow-hidden shadow-[0_0_40px_rgba(212,175,55,0.2)] border border-warmGold/35 bg-[#0a070c] group">
-            {/* Ambient blur video layer */}
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="absolute inset-0 w-full h-full object-cover filter blur-2xl opacity-35 scale-110 pointer-events-none"
-            >
-              <source src="/videos/dolly-video-4.mp4" type="video/mp4" />
-            </video>
-
-            {/* Foreground 100% full visible video */}
-            <video
-              ref={storyVideoRef}
-              controls
-              loop
-              playsInline
-              preload="metadata"
-              className="relative z-10 w-full h-full object-contain"
-            >
-              <source src="/videos/dolly-video-4.mp4" type="video/mp4" />
-            </video>
+            <Image
+              src="/images/arpita-4.jpeg"
+              alt="Arpita"
+              fill
+              priority
+              sizes="(max-width: 768px) 100vw, 700px"
+              className="object-cover group-hover:scale-105 transition-transform duration-700 filter brightness-[0.95]"
+              style={{ objectPosition: 'center 15%' }}
+            />
+            {/* Ambient vignette */}
+            <div className="absolute inset-0 bg-gradient-to-t from-deepBlack/80 via-transparent to-deepBlack/30 pointer-events-none" />
 
             {/* Overlay badge on top */}
             <div className="absolute top-4 left-4 z-20 pointer-events-none">
               <span className="px-3 py-1 rounded-full bg-black/60 backdrop-blur-md border border-warmGold/40 text-[11px] font-inter text-warmGold uppercase tracking-wider font-semibold">
-                ▶ Press play with sound
+                ✨ The First Chapter
               </span>
             </div>
 
@@ -274,7 +246,7 @@ export default function JourneySection() {
 
                     <div className="pt-2 flex items-center gap-2">
                       <span className="text-xs font-inter uppercase tracking-widest text-roseGold/70 font-medium">
-                        Aditya to Dolly
+                        Aditya to Arpita
                       </span>
                       <span className="text-xs text-roseGold/50">✦</span>
                       <span className="text-sm select-none">♥️</span>

@@ -23,8 +23,8 @@ export default function TodayReminder() {
         >
           <div className="relative w-full h-[360px] sm:h-[460px] md:h-[540px] rounded-lg overflow-hidden shadow-2xl border border-warmGold/25">
             <Image
-              src="/images/dolly-6.jpeg"
-              alt="Dolly - Quiet Dignity & Endless Charm"
+              src="/images/arpita-6.jpeg"
+              alt="Arpita - Quiet Dignity & Endless Charm"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
@@ -47,7 +47,7 @@ export default function TodayReminder() {
           </span>
 
           <h2 className="font-playfair text-3xl sm:text-4xl md:text-5xl font-bold gold-gradient">
-            Dear Dolly,
+            Dear Arpita,
           </h2>
 
           <div className="space-y-4 sm:space-y-6 font-inter text-sm sm:text-base md:text-lg text-softIvory/90 leading-relaxed">
@@ -61,7 +61,7 @@ export default function TodayReminder() {
               You don&apos;t need to achieve anything or prove anything to be worthy of love, happiness, and all the best things life has to offer. Just walking into a room, just smiling, just being yourself — you make this world a softer, brighter, and infinitely more beautiful place.
             </p>
             <p className="font-playfair text-lg sm:text-xl text-warmGold font-semibold italic border-l-2 border-warmGold/40 pl-4 py-1 text-left">
-              You are truly one of a kind, Dolly. Never forget how special you are to me. ✨
+              You are truly one of a kind, Arpita. Never forget how special you are to me. ✨
             </p>
           </div>
         </motion.div>

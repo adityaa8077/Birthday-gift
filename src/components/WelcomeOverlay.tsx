@@ -118,7 +118,7 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
                 transition={{ duration: 0.6, ease: 'easeOut' }}
                 className="font-playfair text-4xl sm:text-6xl lg:text-7xl font-bold mb-2 sm:mb-3 tracking-wider text-warmGold"
               >
-                Happy Birthday Dolly 🎂✨
+                Happy Birthday Arpita 🎂✨
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -166,7 +166,7 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
             className="text-center"
           >
             <p className="font-cormorant text-xs sm:text-sm italic tracking-widest text-warmGold/80">
-              Welcome back, Dolly ✦
+              Welcome back, Arpita ✦
             </p>
           </motion.div>
         </div>

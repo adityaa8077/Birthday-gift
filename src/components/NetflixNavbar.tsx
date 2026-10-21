@@ -38,7 +38,7 @@ export default function NetflixNavbar() {
             onClick={() => scrollToSection('hero')} 
             className="font-playfair text-lg sm:text-2xl md:text-3xl font-bold gold-gradient cursor-pointer tracking-wider text-left"
           >
-            DOLLY ✦
+            ARPITA ✦
           </button>
           
           <div className="hidden md:flex gap-6 font-inter text-sm">
@@ -51,11 +51,14 @@ export default function NetflixNavbar() {
             <button onClick={() => scrollToSection('vision-book')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
               Vision Book
             </button>
+            <button onClick={() => scrollToSection('things-never-change')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
+              Why I Love You ❤️
+            </button>
             <button onClick={() => scrollToSection('memory-garden')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
               Moments
             </button>
             <button onClick={() => scrollToSection('cinematic-reels')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
-              Reels 🎬
+              Portraits 📸
             </button>
             <button onClick={() => scrollToSection('open-when')} className="text-softIvory/80 hover:text-warmGold transition-colors cursor-pointer">
               Letters

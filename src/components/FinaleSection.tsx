@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import Image from 'next/image';
 
 export default function FinaleSection() {
   const [ref, inView] = useInView({ threshold: 0.15, triggerOnce: true });
@@ -14,48 +13,6 @@ export default function FinaleSection() {
       className="relative min-h-screen flex items-center justify-center py-20 sm:py-32 px-4 sm:px-6 bg-gradient-to-b from-deepBlack via-[#0a0508] to-deepBlack overflow-hidden"
     >
       <div className="max-w-6xl mx-auto w-full">
-        {/* Us Photo - Final Centerpiece */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.98 }}
-          animate={inView ? { opacity: 1, scale: 1 } : {}}
-          transition={{ duration: 1.5 }}
-          className="relative mb-12 sm:mb-20 max-w-4xl mx-auto"
-        >
-          <div className="text-center mb-6">
-            <span className="font-playfair text-xs sm:text-sm tracking-[0.3em] text-roseGold uppercase font-semibold block mb-2">
-              ✦ You & Me ✦
-            </span>
-            <h2 className="font-playfair text-3xl sm:text-5xl md:text-6xl font-bold gold-gradient">
-              Forever Us, Dolly
-            </h2>
-          </div>
-
-          <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl border border-warmGold/40 bg-[#0c090e] h-[380px] sm:h-[520px] md:h-[620px]">
-            {/* Ambient blur background */}
-            <Image
-              src="/images/us.jpeg"
-              alt=""
-              fill
-              sizes="100px"
-              className="object-cover filter blur-2xl opacity-40 scale-110"
-            />
-            {/* Full Us photo 100% visible */}
-            <Image
-              src="/images/us.jpeg"
-              alt="Aditya & Dolly - Forever Us"
-              fill
-              sizes="(max-width: 768px) 100vw, 900px"
-              className="object-contain z-10"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-deepBlack/85 via-transparent to-transparent pointer-events-none z-20" />
-            <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-8 right-4 sm:right-8 text-center z-30">
-              <p className="font-cormorant text-lg sm:text-2xl md:text-3xl text-softIvory italic drop-shadow-lg">
-                &quot;I love you, Dolly. In every version of my life where I&apos;m trying to be better for you.&quot;
-              </p>
-            </div>
-          </div>
-          <div className="absolute -inset-4 bg-gradient-radial from-roseGold/20 to-transparent blur-3xl -z-10"></div>
-        </motion.div>
 
         {/* Closing Message */}
         <motion.div
@@ -81,7 +38,7 @@ export default function FinaleSection() {
             className="space-y-4 sm:space-y-6"
           >
             <p className="font-cormorant text-2xl sm:text-4xl md:text-5xl text-softIvory/80 italic">
-              This is not the end, Dolly.
+              This is not the end, Arpita.
               <br />
               It&apos;s just the beginning of us.
             </p>
@@ -94,7 +51,7 @@ export default function FinaleSection() {
           </motion.div>
         </motion.div>
 
-        {/* Personal Message from Aditya */}
+        {/* Personal Heartfelt Message from message scratch */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -103,46 +60,51 @@ export default function FinaleSection() {
         >
           <div className="max-w-4xl mx-auto relative">
             <div className="glass rounded-2xl p-6 sm:p-10 md:p-14 border border-warmGold/35 relative shadow-2xl bg-[#120a10]/50 backdrop-blur-md">
-              <div className="space-y-6 sm:space-y-8 font-inter text-sm sm:text-base md:text-lg text-softIvory/90 leading-relaxed text-center sm:text-left">
-                <p className="font-playfair text-2xl sm:text-3xl md:text-4xl text-warmGold font-bold text-center mb-4 sm:mb-6">
-                  For You, Dolly ♥️
-                </p>
-
-                <p>
-                  Dolly, if you&apos;ve made it this far, then you&apos;ve seen my whole heart laid out — raw, honest, and completely yours.
-                </p>
-
-                <p>
-                  Many times I&apos;ve made mistakes, and many times you&apos;ve been angry with me. But I&apos;ve realized your anger never came from a place of hate. It came from care. You were angry because you wanted me to be better, and you never gave up on me, even when I gave you reasons to.
-                </p>
-
-                <p>
-                  What amazes me most is how well you understand me. You see the person behind my mistakes, the one who never meant to hurt you. Even when I couldn&apos;t explain myself, you somehow knew. Very few people are understood like that, and I feel lucky that you are the one who does.
-                </p>
-
-                <p>
-                  Every time you were upset with me, I learned something. You made me more patient, more thoughtful, and more honest with myself. If I&apos;m a better person today, it&apos;s because of you.
-                </p>
-
-                <p>
-                  Somewhere along the way, my feelings grew into something I can&apos;t hide anymore. Your smile is my favourite sight, your voice is my peace, and even your anger carries so much love that I wouldn&apos;t trade it for anyone else&apos;s kindness.
-                </p>
-
-                <div className="my-6 p-6 sm:p-8 rounded-xl bg-warmGold/10 border-l-4 border-warmGold text-center space-y-2">
-                  <p className="font-cormorant text-xl sm:text-2xl italic text-softIvory">
-                    So on your special day, I want to say what my heart has been whispering for so long:
+              <div className="space-y-6 sm:space-y-8 font-cormorant text-lg sm:text-xl md:text-2xl text-softIvory/90 leading-relaxed text-center sm:text-left">
+                <div className="text-center">
+                  <span className="font-inter text-xs tracking-[0.3em] uppercase text-roseGold font-semibold block mb-2">
+                    A Letter From My Soul
+                  </span>
+                  <p className="font-playfair text-3xl sm:text-4xl md:text-5xl text-warmGold font-bold mb-4 sm:mb-6">
+                    Happy Birthday To My Favorite Person ❤️
                   </p>
-                  <p className="font-playfair text-3xl sm:text-5xl font-extrabold gold-gradient tracking-wide py-1">
-                    I love you, Dolly. ♥️
-                  </p>
-                  <p className="font-cormorant text-base sm:text-xl italic text-softIvory/80">
-                    Not just today, but in every version of my life where I&apos;m trying to be better for you.
-                  </p>
+                  <div className="w-16 h-[1px] bg-gradient-to-r from-transparent via-warmGold to-transparent mx-auto mb-6" />
                 </div>
 
-                <p className="text-center font-playfair text-lg sm:text-xl text-warmGold italic">
-                  Happy Birthday, my love. May life return all the happiness you&apos;ve given me. ✨
+                <p className="italic">
+                  I don&apos;t think you&apos;ll ever truly know how much you&apos;ve changed my life. You walked into it so quietly, but somehow became the loudest part of my happiness.
                 </p>
+
+                <p className="italic">
+                  We&apos;ve had our share of disagreements, overthinking, distance, and moments where things felt difficult. But every challenge only reminded me of one thing — <span className="text-warmGold font-semibold">I never wanted a life that didn&apos;t have you in it.</span>
+                </p>
+
+                <p className="italic">
+                  Thank you for staying. Thank you for understanding me, even when I couldn&apos;t explain myself. Thank you for making ordinary days feel special just by being there.
+                </p>
+
+                <p className="italic">
+                  My favorite thing about us isn&apos;t that we&apos;ve had a perfect story. It&apos;s that we&apos;ve continued writing it together, one day at a time.
+                </p>
+
+                <p className="italic">
+                  Today, I don&apos;t just wish you happiness. I wish you the kind of peace you bring into my life. I hope every dream you&apos;ve kept in your heart finds its way to you, because no one deserves it more.
+                </p>
+
+                <div className="my-8 p-6 sm:p-8 rounded-2xl bg-gradient-to-r from-warmGold/15 via-[#23151c]/80 to-warmGold/15 border border-warmGold/40 text-center space-y-3 shadow-xl">
+                  <p className="font-cormorant text-xl sm:text-2xl italic text-softIvory">
+                    And if life asks me again who I&apos;d choose...
+                  </p>
+                  <p className="font-playfair text-3xl sm:text-5xl md:text-6xl font-extrabold gold-gradient tracking-wide py-1">
+                    It will always be you.
+                  </p>
+                  <p className="font-playfair text-xl sm:text-2xl text-roseGold font-semibold italic">
+                    Happy Birthday. ❤️
+                  </p>
+                  <p className="font-cormorant text-lg sm:text-2xl italic text-softIvory/90">
+                    I love you more than words will ever be able to explain.
+                  </p>
+                </div>
               </div>
 
               <div className="border-t border-warmGold/20 pt-6 sm:pt-8 mt-8 sm:mt-10 text-center">

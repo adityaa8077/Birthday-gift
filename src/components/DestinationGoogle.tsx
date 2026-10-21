@@ -95,7 +95,7 @@ export default function DestinationGoogle() {
           <div className="relative w-full h-[380px] sm:h-[480px] md:h-[560px] rounded-xl overflow-hidden shadow-2xl border border-warmGold/30 bg-[#0c090e]">
             {/* Ambient blur background */}
             <Image
-              src="/images/dolly-2.jpeg"
+              src="/images/arpita-2.jpeg"
               alt=""
               fill
               sizes="100px"
@@ -103,8 +103,8 @@ export default function DestinationGoogle() {
             />
             {/* Full photo completely visible */}
             <Image
-              src="/images/dolly-2.jpeg"
-              alt="Dolly - Destined For Greatness"
+              src="/images/arpita-2.jpeg"
+              alt="Arpita - Destined For Greatness"
               fill
               sizes="(max-width: 768px) 100vw, 650px"
               className="object-contain z-10"
@@ -115,7 +115,7 @@ export default function DestinationGoogle() {
                 A Promise From Aditya
               </span>
               <p className="font-cormorant text-lg sm:text-2xl text-softIvory italic font-medium leading-relaxed">
-                &quot;I see your future so clearly, Dolly. You&apos;re going to touch millions of lives, and I will be here loving, protecting, and believing in you every single day.&quot;
+                &quot;I see your future so clearly, Arpita. You&apos;re going to touch millions of lives, and I will be here loving, protecting, and believing in you every single day.&quot;
               </p>
             </div>
           </div>

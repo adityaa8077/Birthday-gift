@@ -28,15 +28,15 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "For My Dolly 💝 | Made With Love",
-  description: "A small corner of the internet, made just for Dolly — a love confession, memories, and celebrating the most beautiful soul.",
-  keywords: "Dolly, Love Confession, Romantic, Aditya, Memories, Kept in My Heart",
+  title: "For My Arpita 💝 | Made With Love",
+  description: "A small corner of the internet, made just for Arpita — a love confession, memories, and celebrating the most beautiful soul.",
+  keywords: "Arpita, Love Confession, Romantic, Aditya, Memories, Kept in My Heart",
   authors: [{ name: "Made with love by Aditya" }],
   icons: {
     icon: '/favicon.svg',
   },
   openGraph: {
-    title: "For My Dolly 💝 | Made With Love",
+    title: "For My Arpita 💝 | Made With Love",
     description: "Every second with you is a memory I'll treasure forever.",
     type: "website",
   },

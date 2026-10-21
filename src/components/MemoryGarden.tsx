@@ -4,12 +4,12 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const gardenImages = [
-  { src: "/images/dolly-1.jpeg", caption: "The face that makes my heart race every single time.", className: "md:col-span-2 h-[420px] sm:h-[520px]", objectPos: "50% 10%" },
-  { src: "/images/dolly-7.jpeg", caption: "That look in your eyes — it's where I lose myself and find home.", className: "md:col-span-1 h-[360px] sm:h-[420px]", objectPos: "50% 10%" },
-  { src: "/images/dolly-8.jpeg", caption: "Your smile could end wars and start poetry.", className: "md:col-span-1 h-[360px] sm:h-[420px]", objectPos: "50% 10%" },
-  { src: "/images/dolly-9.jpeg", caption: "Every photo of you is my favorite photo ever taken.", className: "md:col-span-1 h-[360px] sm:h-[420px]", objectPos: "50% 10%" },
-  { src: "/images/dolly-10.jpeg", caption: "I could stare at you forever and still want one more second.", className: "md:col-span-2 h-[420px] sm:h-[520px]", objectPos: "50% 12%" },
-  { src: "/images/dolly-11.jpeg", caption: "The most beautiful soul wrapped in the most beautiful face.", className: "md:col-span-1 h-[360px] sm:h-[420px]", objectPos: "50% 10%" },
+  { src: "/images/arpita-1.jpeg", caption: "The face that makes my heart race every single time.", className: "md:col-span-2 h-[420px] sm:h-[520px]", objectPos: "50% 10%" },
+  { src: "/images/arpita-7.jpeg", caption: "That look in your eyes — it's where I lose myself and find home.", className: "md:col-span-1 h-[360px] sm:h-[420px]", objectPos: "50% 10%" },
+  { src: "/images/arpita-8.jpeg", caption: "Your smile could end wars and start poetry.", className: "md:col-span-1 h-[360px] sm:h-[420px]", objectPos: "50% 10%" },
+  { src: "/images/arpita-9.jpeg", caption: "Every photo of you is my favorite photo ever taken.", className: "md:col-span-1 h-[360px] sm:h-[420px]", objectPos: "50% 10%" },
+  { src: "/images/arpita-10.jpeg", caption: "I could stare at you forever and still want one more second.", className: "md:col-span-2 h-[420px] sm:h-[520px]", objectPos: "50% 12%" },
+  { src: "/images/arpita-11.jpeg", caption: "The most beautiful soul wrapped in the most beautiful face.", className: "md:col-span-1 h-[360px] sm:h-[420px]", objectPos: "50% 10%" },
 ];
 
 export default function MemoryGarden() {
@@ -37,7 +37,7 @@ export default function MemoryGarden() {
             transition={{ delay: 0.3, duration: 1.2 }}
             className="font-cormorant text-lg sm:text-xl md:text-2xl text-softIvory/70 italic max-w-2xl mx-auto px-2"
           >
-            &quot;This is how you look to me, Dolly. This is the beauty I see every time I look at you.&quot;
+            &quot;This is how you look to me, Arpita. This is the beauty I see every time I look at you.&quot;
           </motion.p>
           <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-warmGold to-transparent mx-auto mt-4 sm:mt-6"></div>
         </div>

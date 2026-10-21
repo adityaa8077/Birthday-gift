@@ -8,28 +8,28 @@ const visionItems = [
   {
     title: "Us, Together",
     description: "Picture this: a warm evening, golden light, your head on my shoulder, and absolutely nowhere else we'd rather be. Just us. Just this. Just perfect.",
-    image: "/images/dolly-2.jpeg",
+    image: "/images/arpita-2.jpeg",
     objectPos: "50% 10%",
     quote: "\"I don't dream about places anymore. I dream about moments — and they all have you in them.\""
   },
   {
     title: "Your Happiness",
     description: "I want to see you laughing so hard your stomach hurts. I want to see you chasing your wildest dreams with that fire in your eyes. I want to see you happy — truly, deeply, completely happy.",
-    image: "/images/dolly-4.jpeg",
+    image: "/images/arpita-4.jpeg",
     objectPos: "50% 12%",
     quote: "\"Your happiness is the only thing I'd spend my entire life working for.\""
   },
   {
     title: "Our Adventures",
     description: "Road trips with terrible singing, late-night conversations about everything and nothing, discovering beautiful places together. Every adventure is better with you.",
-    image: "/images/dolly-6.jpeg",
+    image: "/images/arpita-6.jpeg",
     objectPos: "50% 10%",
     quote: "\"The world is beautiful, but it's most beautiful when I'm seeing it with you.\""
   },
   {
     title: "Growing Old Together",
     description: "I don't just want today. I want every tomorrow. I want to be the person who still looks at you the same way I do now — with absolute wonder — even when we're old and grey.",
-    image: "/images/dolly-12.jpeg",
+    image: "/images/arpita-8.jpeg",
     objectPos: "50% 12%",
     quote: "\"My forever starts with you. It always has.\""
   },
@@ -58,7 +58,7 @@ export default function VisionBook() {
             Visions of Our Tomorrow
           </h2>
           <p className="font-cormorant text-lg sm:text-xl md:text-2xl text-softIvory/70 italic max-w-2xl mx-auto px-2">
-            &quot;Close your eyes, Dolly. Imagine all the beautiful things waiting for us.&quot;
+            &quot;Close your eyes, Arpita. Imagine all the beautiful things waiting for us.&quot;
           </p>
           <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-warmGold to-transparent mx-auto mt-4 sm:mt-6"></div>
         </motion.div>

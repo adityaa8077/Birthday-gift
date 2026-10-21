@@ -43,8 +43,8 @@ export default function HeartBehindBrilliance() {
           >
             <div className="relative w-full h-[360px] sm:h-[460px] md:h-[520px] rounded-lg overflow-hidden shadow-2xl border border-warmGold/20">
               <Image
-                src="/images/dolly-8.jpeg"
-                alt="Dolly - Pure Heart"
+                src="/images/arpita-8.jpeg"
+                alt="Arpita - Pure Heart"
                 fill
                 sizes="(max-width: 768px) 100vw, 40vw"
                 className="object-cover"
@@ -69,7 +69,7 @@ export default function HeartBehindBrilliance() {
 
               <div className="space-y-4 sm:space-y-6 font-inter text-sm sm:text-base md:text-lg text-softIvory/90 leading-relaxed">
                 <p className="font-playfair text-lg sm:text-xl md:text-2xl text-softIvory font-semibold">
-                  To Dolly, the person who stole my heart,
+                  To Arpita, the person who stole my heart,
                 </p>
 
                 <p>

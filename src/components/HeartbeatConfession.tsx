@@ -14,7 +14,7 @@ const narrativePhases = [
   {
     phaseId: 'intro',
     lines: [
-      "Dolly…",
+      "Arpita…",
       "There's something I've been carrying inside my heart for so long.",
       "Words I've written and erased a thousand times. But tonight, my heart refuses to stay silent.",
     ],
@@ -44,7 +44,7 @@ const narrativePhases = [
     phaseId: 'truth',
     lines: [
       "So on your special day, I want to say what my heart has been whispering:",
-      "I love you, Dolly. ♥️",
+      "I love you, Arpita. ♥️",
       "Not just today, but in every version of my life where I'm trying to be better for you.",
       "You see the person behind my mistakes, and you never gave up on me.",
     ],
@@ -76,21 +76,21 @@ const narrativePhases = [
       "If the universe gave me one wish,",
       "it wouldn't be for wealth, or fame, or power.",
       "It would be you. It would always be you.",
-      "I love you, Dolly. Always and forever. ♥️",
+      "I love you, Arpita. Always and forever. ♥️",
     ],
     delay: 3400,
   }
 ];
 
 const montageImages = [
-  { src: "/images/us.jpeg", caption: "“You & Me ✦ I love you, Dolly ♥️”", objectPos: "50% 50%" },
-  { src: "/images/dolly-1.jpeg", caption: "“the face that rewrote my entire definition of beautiful…”", objectPos: "50% 10%" },
-  { src: "/images/dolly-3.jpeg", caption: "“every time I see you, I fall a little harder…”", objectPos: "50% 10%" },
-  { src: "/images/dolly-5.jpeg", caption: "“you don't know what you do to my heart…”", objectPos: "50% 10%" },
-  { src: "/images/dolly-7.jpeg", caption: "“this smile — the reason I believe in magic…”", objectPos: "50% 10%" },
-  { src: "/images/dolly-9.jpeg", caption: "“I want to be the reason you smile like this…”", objectPos: "50% 10%" },
-  { src: "/images/dolly-10.jpeg", caption: "“my favorite person in the whole wide universe…”", objectPos: "50% 12%" },
-  { src: "/images/dolly-12.jpeg", caption: "“I'm so in love with everything about you ♥️”", objectPos: "50% 10%" },
+  { src: "/images/arpita-2.jpeg", caption: "“You are my whole universe, Arpita ♥️”", objectPos: "50% 10%" },
+  { src: "/images/arpita-1.jpeg", caption: "“the face that rewrote my entire definition of beautiful…”", objectPos: "50% 10%" },
+  { src: "/images/arpita-3.jpeg", caption: "“every time I see you, I fall a little harder…”", objectPos: "50% 10%" },
+  { src: "/images/arpita-5.jpeg", caption: "“you don't know what you do to my heart…”", objectPos: "50% 10%" },
+  { src: "/images/arpita-7.jpeg", caption: "“this smile — the reason I believe in magic…”", objectPos: "50% 10%" },
+  { src: "/images/arpita-9.jpeg", caption: "“I want to be the reason you smile like this…”", objectPos: "50% 10%" },
+  { src: "/images/arpita-10.jpeg", caption: "“my favorite person in the whole wide universe…”", objectPos: "50% 12%" },
+  { src: "/images/arpita-11.jpeg", caption: "“I'm so in love with everything about you ♥️”", objectPos: "50% 10%" },
 ];
 
 export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChange }: HeartbeatConfessionProps) {
@@ -248,7 +248,7 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
         output.push({
           text: str,
           id: `${p}-${l}`,
-          isConfession: str.includes("I love you, Dolly") || str.includes("It would be you"),
+          isConfession: str.includes("I love you, Arpita") || str.includes("It would be you"),
         });
       }
     }
@@ -272,17 +272,8 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
           transition: 'background 2.5s ease',
         }}
       >
-        {/* Subtle Ambient Background Video & Glow */}
-        <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden opacity-15">
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="w-full h-full object-cover filter blur-[2px] brightness-60"
-          >
-            <source src="/videos/dolly-video-3.mp4" type="video/mp4" />
-          </video>
+        {/* Subtle Ambient Background Glow */}
+        <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
           <div className="absolute inset-0 bg-gradient-radial from-roseGold/10 via-transparent to-transparent blur-3xl" />
         </div>
 
@@ -325,7 +316,7 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
             className="w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full bg-gradient-to-r from-roseGold to-blushPink shadow-[0_0_20px_rgba(244,160,160,0.8)]"
           />
           <span className="font-playfair text-[10px] sm:text-[11px] tracking-[0.25em] sm:tracking-[0.3em] uppercase text-blushPink/80 truncate">
-            {showFullLetterMode ? "A Confession For Dolly" : "My Heart Speaking"}
+            {showFullLetterMode ? "A Confession For Arpita" : "My Heart Speaking"}
           </span>
         </div>
 
@@ -392,7 +383,7 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
                 A Confession Written With My Whole Heart
               </span>
               <h2 className="font-playfair text-3xl sm:text-5xl md:text-6xl font-bold gold-gradient">
-                Dear Dolly ♥️
+                Dear Arpita ♥️
               </h2>
               <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-roseGold to-transparent mx-auto mt-3" />
             </div>
@@ -425,7 +416,7 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
                       {/* Foreground full photo completely visible */}
                       <Image
                         src={montageImages[montageIndex].src}
-                        alt="Dolly"
+                        alt="Arpita"
                         fill
                         sizes="(max-width: 768px) 100vw, 700px"
                         className="object-contain z-10"
@@ -444,43 +435,41 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
               {/* The Confession Letter */}
               <div className="space-y-4 sm:space-y-6 font-cormorant text-lg sm:text-xl md:text-2xl leading-relaxed text-[#3d2a21] ml-2 sm:ml-6 md:ml-8">
                 <p className="font-playfair text-2xl sm:text-3xl font-bold text-[#8b3a4a] italic">
-                  My dearest Dolly,
+                  My dearest Arpita,
                 </p>
 
                 <p>
-                  Happy Birthday to the person who understands me better than anyone. 🎂
+                  Happy Birthday to my favorite person. ❤️
                 </p>
 
                 <p>
-                  Many times I&apos;ve made mistakes, and many times you&apos;ve been angry with me. But I&apos;ve realized your anger never came from a place of hate. It came from care. You were angry because you wanted me to be better, and you never gave up on me, even when I gave you reasons to.
+                  I don&apos;t think you&apos;ll ever truly know how much you&apos;ve changed my life. You walked into it so quietly, but somehow became the loudest part of my happiness.
                 </p>
 
                 <p>
-                  What amazes me most is how well you understand me. You see the person behind my mistakes, the one who never meant to hurt you. Even when I couldn&apos;t explain myself, you somehow knew. Very few people are understood like that, and I feel lucky that you are the one who does.
+                  We&apos;ve had our share of disagreements, overthinking, distance, and moments where things felt difficult. But every challenge only reminded me of one thing — I never wanted a life that didn&apos;t have you in it.
                 </p>
 
                 <p>
-                  Every time you were upset with me, I learned something. You made me more patient, more thoughtful, and more honest with myself. If I&apos;m a better person today, it&apos;s because of you.
+                  Thank you for staying. Thank you for understanding me, even when I couldn&apos;t explain myself. Thank you for making ordinary days feel special just by being there. My favorite thing about us isn&apos;t that we&apos;ve had a perfect story. It&apos;s that we&apos;ve continued writing it together, one day at a time.
                 </p>
 
                 <p>
-                  Somewhere along the way, my feelings grew into something I can&apos;t hide anymore. Your smile is my favourite sight, your voice is my peace, and even your anger carries so much love that I wouldn&apos;t trade it for anyone else&apos;s kindness.
+                  Today, I don&apos;t just wish you happiness. I wish you the kind of peace you bring into my life. I hope every dream you&apos;ve kept in your heart finds its way to you, because no one deserves it more.
                 </p>
 
                 {/* The Big Confession Box */}
                 <div className="my-6 p-6 sm:p-8 rounded-xl bg-[#f5ecdc] border-l-4 border-[#8b3a4a] shadow-sm text-center space-y-3">
                   <p className="font-cormorant text-lg sm:text-xl italic text-[#6d5547]">
-                    So on your special day, I want to say what my heart has been whispering for so long:
+                    And if life asks me again who I&apos;d choose... it will always be you.
                   </p>
                   <p className="font-playfair text-3xl sm:text-5xl font-bold text-[#8b3a4a] italic gold-gradient">
-                    I love you, Dolly. ♥️
+                    I love you, Arpita. ♥️
                   </p>
                   <p className="font-cormorant text-base sm:text-xl italic text-[#3d2a21] mt-2 leading-relaxed">
                     Not just today, but in every version of my life where I&apos;m trying to be better for you.
                     <br />
-                    I won&apos;t rush you, and I will respect whatever you feel.
-                    <br />
-                    I just wanted you to know that you are deeply loved.
+                    I love you more than words will ever be able to explain.
                   </p>
                 </div>
 
