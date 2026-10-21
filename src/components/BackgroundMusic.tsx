@@ -14,14 +14,14 @@ const trackLabels: Record<TrackName, string> = {
   'sitare': 'Sitaare ✦',
   'khat': 'Khat ✦',
   'arz-kiya-hai': 'Arz Kiya Hai ✦',
-  'sajde': 'Sajde ✦',
+  'sajde': 'I Think They Call This Love ✦',
 };
 
 const trackFiles: Record<TrackName, string> = {
   'sitare': '/audio/sitare.mp3',
   'khat': '/audio/khat.mp3',
   'arz-kiya-hai': '/audio/arz-kiya-hai.mp3',
-  'sajde': '/audio/sajde.mp3',
+  'sajde': '/audio/I_Think_They_Call_This_Love_Cover.mp3',
 };
 
 export default function BackgroundMusic({ playMusic, currentTrack }: BackgroundMusicProps) {
