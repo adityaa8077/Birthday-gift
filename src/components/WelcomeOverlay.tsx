@@ -103,21 +103,30 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
             <canvas ref={canvasRef} className="absolute inset-0 z-0 w-full h-full pointer-events-none" />
 
             <div className="relative z-10 text-center max-w-xl px-4 flex flex-col items-center justify-center w-full">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 }}
+                className="inline-block px-4 py-1 rounded-full border border-warmGold/40 bg-warmGold/10 mb-3 text-xs sm:text-sm font-inter tracking-[0.25em] text-warmGold uppercase font-semibold"
+              >
+                🎂 Special Birthday Celebration
+              </motion.div>
+
               <motion.h1
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: 'easeOut' }}
-                className="font-playfair text-3xl sm:text-5xl lg:text-6xl font-bold mb-2 sm:mb-3 tracking-widest text-warmGold"
+                className="font-playfair text-4xl sm:text-6xl lg:text-7xl font-bold mb-2 sm:mb-3 tracking-wider text-warmGold"
               >
-                Sandhya ✦
+                Shatakshi ✦
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 0.9 }}
                 transition={{ delay: 0.1, duration: 0.5 }}
-                className="font-cormorant text-xl sm:text-2xl text-warmGold/80 italic mb-4 sm:mb-6 tracking-wider"
+                className="font-cormorant text-xl sm:text-2xl text-warmGold/80 italic mb-4 sm:mb-6 tracking-widest"
               >
-                (Sandy)
+                Happy Birthday! ✨
               </motion.p>
 
               <motion.p
@@ -126,8 +135,8 @@ export default function WelcomeOverlay({ onEnter }: WelcomeOverlayProps) {
                 transition={{ delay: 0.15, duration: 0.6, ease: 'easeOut' }}
                 className="font-cormorant text-lg sm:text-2xl leading-relaxed italic text-softIvory/90 mb-8 sm:mb-12 max-w-md px-2"
               >
-                &quot;To someone I truly admire with all my heart...
-                I made this little corner of the internet just for you.&quot;
+                &quot;To someone truly magical and deeply admired...
+                I made this little corner of the internet just to celebrate you.&quot;
               </motion.p>
 
               <motion.button

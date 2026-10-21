@@ -4,12 +4,12 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const gardenImages = [
-  { src: "/images/sandy-1.jpeg", caption: "Fairy tales are real. I'm looking at one.", className: "md:col-span-2 h-[380px] sm:h-[480px]", objectPos: "50% 15%" },
-  { src: "/images/sandy-2.jpeg", caption: "That gentle, dreamy expression that stops time.", className: "md:col-span-1 h-[320px] sm:h-[380px]", objectPos: "50% 18%" },
-  { src: "/images/sandy-3.jpeg", caption: "Every glance carries a quiet, effortless elegance.", className: "md:col-span-1 h-[320px] sm:h-[380px]", objectPos: "50% 15%" },
-  { src: "/images/sandy-4.jpeg", caption: "That rare, glowing smile that makes everything brighter.", className: "md:col-span-1 h-[320px] sm:h-[380px]", objectPos: "50% 15%" },
-  { src: "/images/sandy-5.jpeg", caption: "You don't even know how pretty you are.", className: "md:col-span-2 h-[380px] sm:h-[480px]", objectPos: "50% 20%" },
-  { src: "/images/sandy-6.jpeg", caption: "Quiet grace and endless charm in every frame.", className: "md:col-span-1 h-[320px] sm:h-[380px]", objectPos: "50% 15%" },
+  { src: "/images/shatakshi-1.jpeg", caption: "A smile that lights up the entire world.", className: "md:col-span-2 h-[380px] sm:h-[480px]", objectPos: "50% 15%" },
+  { src: "/images/shatakshi-2.jpeg", caption: "That gentle, radiant expression that stops time.", className: "md:col-span-1 h-[320px] sm:h-[380px]", objectPos: "50% 18%" },
+  { src: "/images/shatakshi-3.jpeg", caption: "Every glance carries a quiet, effortless elegance.", className: "md:col-span-1 h-[320px] sm:h-[380px]", objectPos: "50% 15%" },
+  { src: "/images/shatakshi-4.jpeg", caption: "That rare, glowing warmth that makes everything brighter.", className: "md:col-span-1 h-[320px] sm:h-[380px]", objectPos: "50% 32%" },
+  { src: "/images/shatakshi-5.jpeg", caption: "Pure grace and effortless beauty in every single frame.", className: "md:col-span-2 h-[380px] sm:h-[480px]", objectPos: "50% 20%" },
+  { src: "/images/shatakshi-6.jpeg", caption: "Quiet dignity and endless charm.", className: "md:col-span-1 h-[320px] sm:h-[380px]", objectPos: "50% 15%" },
 ];
 
 export default function MemoryGarden() {

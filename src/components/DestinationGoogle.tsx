@@ -94,8 +94,8 @@ export default function DestinationGoogle() {
         >
           <div className="relative w-full h-[320px] sm:h-[420px] md:h-[480px] rounded-lg overflow-hidden shadow-2xl border border-warmGold/20">
             <Image
-              src="/images/sandy-2.jpeg"
-              alt="Sandhya (Sandy) - Radiant Grace"
+              src="/images/shatakshi-2.jpeg"
+              alt="Shatakshi - Radiant Grace"
               fill
               sizes="(max-width: 768px) 100vw, 650px"
               className="object-cover"

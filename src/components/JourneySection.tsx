@@ -102,14 +102,19 @@ export default function JourneySection() {
         >
           <div className="relative w-full h-[360px] sm:h-[460px] rounded-lg overflow-hidden shadow-2xl border border-warmGold/20">
             <Image
-              src="/images/sandy-4.jpeg"
-              alt="Sandhya (Sandy) - Her Grace"
+              src="/images/shatakshi-5.jpeg"
+              alt="Shatakshi - Behind That Graceful Smile"
               fill
               sizes="(max-width: 768px) 100vw, 450px"
               className="object-cover"
-              style={{ objectPosition: '50% 12%' }}
+              style={{ objectPosition: '50% 15%' }}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-deepBlack/50 via-transparent to-transparent pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-t from-deepBlack/85 via-deepBlack/20 to-transparent pointer-events-none" />
+            <div className="absolute bottom-3 sm:bottom-5 left-3 sm:left-6 right-3 sm:right-6 text-center">
+              <p className="font-cormorant text-base sm:text-xl text-softIvory/90 italic drop-shadow-md">
+                &quot;Behind that graceful smile lies a heart that cares more deeply and gently than words can ever tell.&quot;
+              </p>
+            </div>
           </div>
           <div className="absolute -inset-4 bg-gradient-radial from-warmGold/10 to-transparent blur-3xl -z-10"></div>
         </motion.div>

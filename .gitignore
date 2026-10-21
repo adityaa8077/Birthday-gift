@@ -41,5 +41,6 @@ next-env.d.ts
 .idea/
 
 # OS
-.DS_Store
-Thumbs.db
+# Personal local folders
+sandy/
+dear her/

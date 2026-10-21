@@ -23,12 +23,12 @@ export default function TodayReminder() {
         >
           <div className="relative w-full h-[360px] sm:h-[460px] md:h-[540px] rounded-lg overflow-hidden shadow-2xl border border-warmGold/25">
             <Image
-              src="/images/sandy-3.jpeg"
-              alt="Sandhya (Sandy)"
+              src="/images/shatakshi-6.jpeg"
+              alt="Shatakshi - Quiet Dignity & Endless Charm"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
-              style={{ objectPosition: '50% 12%' }}
+              style={{ objectPosition: '50% 18%' }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-deepBlack/40 via-transparent to-transparent pointer-events-none" />
           </div>
@@ -43,25 +43,25 @@ export default function TodayReminder() {
           className="space-y-6 sm:space-y-8 text-center md:text-left"
         >
           <span className="font-playfair text-[10px] tracking-[0.3em] text-warmGold uppercase block">
-            A Reminder For Today
+            A Special Birthday Reminder
           </span>
 
           <h2 className="font-playfair text-3xl sm:text-4xl md:text-5xl font-bold gold-gradient">
-            Dear Sandhya (Sandy),
+            Dear Shatakshi,
           </h2>
 
           <div className="space-y-4 sm:space-y-6 font-inter text-sm sm:text-base md:text-lg text-softIvory/90 leading-relaxed">
             <p>
-              I know life can be overwhelming sometimes, and days can feel quiet and heavy — but I see you. <span className="text-warmGold font-semibold">I admire you a lot</span> — the gentle strength you carry, the warmth you pour into everyone around you, and the sheer magic of your kind soul.
+              Today is all about celebrating the wonderful, radiant soul that you are. I know life can be overwhelming sometimes, and days can feel quiet and heavy — but I see you. <span className="text-warmGold font-semibold">I admire you a lot</span> — the gentle strength you carry, the warmth you pour into everyone around you, and the sheer magic of your kind heart.
             </p>
             <p>
-              And I just want you to know: <span className="text-warmGold font-semibold">you are more wonderful than you could ever imagine.</span>
+              And on your birthday, I just want you to remember: <span className="text-warmGold font-semibold">you are more extraordinary than you could ever imagine.</span>
             </p>
             <p>
-              You don&apos;t need to achieve anything or prove anything to be worthy of love and happiness. Just walking into a room, just smiling, just being yourself — you make this world a softer, brighter, and infinitely more beautiful place.
+              You don&apos;t need to achieve anything or prove anything to be worthy of love, happiness, and all the best things life has to offer. Just walking into a room, just smiling, just being yourself — you make this world a softer, brighter, and infinitely more beautiful place.
             </p>
             <p className="font-playfair text-lg sm:text-xl text-warmGold font-semibold italic border-l-2 border-warmGold/40 pl-4 py-1 text-left">
-              I admire everything you are. Never forget how truly special you are.
+              Wishing you the happiest birthday, Shatakshi. Never forget how truly special you are. ✨
             </p>
           </div>
         </motion.div>

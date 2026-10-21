@@ -8,29 +8,29 @@ const visionItems = [
   {
     title: "Carefree Happiness",
     description: "Picture this: a warm, sunlit afternoon with a gentle breeze, and you laughing freely without a single worry on your mind. Completely at ease, peaceful, and radiant.",
-    image: "/images/sandy-1.jpeg",
+    image: "/images/shatakshi-1.jpeg",
     objectPos: "50% 15%",
     quote: "\"Your happiness is honestly the most beautiful sight in the universe.\""
   },
   {
     title: "Deeply Cherished",
-    description: "A life where every ounce of kindness and love you have given to others returns to you tenfold. Where your tender heart is always safe, valued, and understood.",
-    image: "/images/sandy-2.jpeg",
+    description: "A life where every ounce of kindness and warmth you have given to others returns to you tenfold. Where your tender heart is always safe, valued, and understood.",
+    image: "/images/shatakshi-2.jpeg",
     objectPos: "50% 15%",
-    quote: "\"You deserve all the love you give away so selflessly.\""
+    quote: "\"You deserve all the joy and warmth you give away so selflessly.\""
   },
   {
     title: "Quiet Sunsets & Wonder",
-    description: "Exploring beautiful streets, watching golden sunsets, and feeling that every step of your life is unfolding into something breathtaking and magical.",
-    image: "/images/sandy-3.jpeg",
-    objectPos: "50% 15%",
+    description: "Exploring beautiful places, watching golden skies, and feeling that every step of your life is unfolding into something breathtaking and magical.",
+    image: "/images/shatakshi-3.jpeg",
+    objectPos: "50% 10%",
     quote: "\"May the universe always lay out a path of flowers for your feet.\""
   },
   {
     title: "Peace in Every Tomorrow",
     description: "Knowing deep down that you are enough, that your presence alone lights up rooms, and that someone out there will always be cheering for you from the bottom of their heart.",
-    image: "/images/sandy-4.jpeg",
-    objectPos: "50% 15%",
+    image: "/images/shatakshi-4.jpeg",
+    objectPos: "50% 32%",
     quote: "\"Someone who thanks the stars every single night, just because you exist.\""
   },
 ];

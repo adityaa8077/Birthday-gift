@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import NetflixNavbar from '@/components/NetflixNavbar';
 import HeroSection from '@/components/HeroSection';
+import BirthdayTimer from '@/components/BirthdayTimer';
 import TheQuietGrind from '@/components/TheQuietGrind';
 import VisionaryAction from '@/components/VisionaryAction';
 import DestinationGoogle from '@/components/DestinationGoogle';
@@ -85,6 +86,7 @@ export default function Home() {
         
         {/* Story & Keepsake Sections */}
         <HeroSection />
+        <BirthdayTimer />
         <TodayReminder />
         <JourneySection />
         <TheQuietGrind />

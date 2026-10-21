@@ -43,8 +43,8 @@ export default function HeartBehindBrilliance() {
           >
             <div className="relative w-full h-[360px] sm:h-[460px] md:h-[520px] rounded-lg overflow-hidden shadow-2xl border border-warmGold/20">
               <Image
-                src="/images/sandy-5.jpeg"
-                alt="Sandhya (Sandy) - Pure Heart"
+                src="/images/shatakshi-5.jpeg"
+                alt="Shatakshi - Pure Heart"
                 fill
                 sizes="(max-width: 768px) 100vw, 40vw"
                 className="object-cover"
@@ -69,11 +69,11 @@ export default function HeartBehindBrilliance() {
 
               <div className="space-y-4 sm:space-y-6 font-inter text-sm sm:text-base md:text-lg text-softIvory/90 leading-relaxed">
                 <p className="font-playfair text-lg sm:text-xl md:text-2xl text-softIvory font-semibold">
-                  To Sandhya (Sandy), the most beautiful soul I know,
+                  To Shatakshi, the most beautiful soul I know,
                 </p>
 
                 <p>
-                  People will always notice how effortlessly radiant you look, or how gracefully you carry yourself wherever you go. And watching you work with such sharp intellect and dedication at <span className="text-warmGold font-semibold">IIT Jodhpur</span> is so inspiring.
+                  People will always notice how effortlessly radiant you look, or how gracefully you carry yourself wherever you go. And watching you work with such sharp intellect, passion, and quiet dedication is so inspiring.
                 </p>
 
                 <p>

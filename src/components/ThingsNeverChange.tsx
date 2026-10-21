@@ -42,7 +42,7 @@ export default function ThingsNeverChange() {
           className="text-center mb-16 px-4"
         >
           <span className="font-playfair text-xs tracking-[0.25em] text-warmGold uppercase block mb-4">
-            Things About You That I Love
+            Things About You That Make You Truly Special
           </span>
           <p className="font-cormorant text-2xl md:text-3xl lg:text-4xl text-softIvory font-medium italic leading-relaxed">
             &quot;In a world full of people trying to be someone else,

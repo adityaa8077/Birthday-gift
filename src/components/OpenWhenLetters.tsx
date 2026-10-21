@@ -161,7 +161,7 @@ export default function OpenWhenLetters({ onConfessionOpen }: OpenWhenLettersPro
             <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-roseGold to-transparent" />
 
             <h3 className="font-playfair text-lg sm:text-2xl font-bold text-blushPink group-hover:text-white transition-colors duration-300 z-10 text-center leading-snug">
-              Open When You&apos;re Ready For Something I Never Said
+              Open When It&apos;s Your Birthday ✦ A Letter From The Heart
             </h3>
 
             <div className="flex justify-center items-center py-3 sm:py-4 z-10">
@@ -170,13 +170,13 @@ export default function OpenWhenLetters({ onConfessionOpen }: OpenWhenLettersPro
                 animate={{ scale: [1, 1.1, 1] }}
                 transition={{ duration: 1.4, repeat: Infinity, ease: 'easeInOut' }}
               >
-                <span className="text-white text-xl sm:text-2xl select-none">♥</span>
+                <span className="text-white text-xl sm:text-2xl select-none">🎂</span>
                 <div className="absolute inset-1 rounded-full border border-white/30 opacity-60"></div>
               </motion.div>
             </div>
 
             <span className="font-cormorant text-sm sm:text-base italic text-blushPink/75 text-center tracking-widest block z-10 border-t border-roseGold/20 pt-2 group-hover:text-blushPink transition-colors duration-300">
-              &quot;This one is different. Take your time.&quot;
+              &quot;A special keepsake written just for you on your birthday.&quot;
             </span>
           </motion.div>
         </motion.div>

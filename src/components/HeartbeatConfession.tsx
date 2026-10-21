@@ -59,9 +59,9 @@ const narrativePhases = [
   {
     phaseId: 'choosing',
     lines: [
-      "If I were given a hundred lifetimes and had to choose all over again...",
-      "I would choose to meet you every single time, without a second thought.",
-      "You have quietly, softly, become one of the most beautiful chapters of my life's story. ❤️",
+      "Today and always, my deepest prayers and heartfelt blessings are with you...",
+      "May the universe always protect your tender heart and bring you endless joy.",
+      "You have quietly, softly, become one of the most beautiful chapters of my life's story. ✨",
     ],
     delay: 3600,
   },
@@ -78,13 +78,13 @@ const narrativePhases = [
 ];
 
 const montageImages = [
-  { src: "/images/sandy-1.jpeg", caption: "\u201cthat genuine, heart-melting smile\u2026\u201d", objectPos: "50% 20%" },
-  { src: "/images/sandy-2.jpeg", caption: "\u201cthat radiant grace\u2026\u201d", objectPos: "50% 15%" },
-  { src: "/images/sandy-3.jpeg", caption: "\u201cthe warmth that makes every moment brighter\u2026\u201d", objectPos: "50% 15%" },
-  { src: "/images/sandy-4.jpeg", caption: "\u201cdiscovering who you are, one day at a time\u2026\u201d", objectPos: "50% 12%" },
-  { src: "/images/sandy-5.jpeg", caption: "\u201cI admire you so much, Sandy\u2026\u201d", objectPos: "50% 15%" },
-  { src: "/images/sandy-6.jpeg", caption: "\u201csimply grateful that our paths crossed\u2026\u201d", objectPos: "50% 18%" },
-  { src: "/images/sandy-7.jpeg", caption: "\u201cforever wishing you happiness \u2728\u201d", objectPos: "50% 15%" },
+  { src: "/images/shatakshi-1.jpeg", caption: "“that genuine, heart-melting smile…”", objectPos: "50% 20%" },
+  { src: "/images/shatakshi-2.jpeg", caption: "“that radiant grace…”", objectPos: "50% 15%" },
+  { src: "/images/shatakshi-3.jpeg", caption: "“the warmth that makes every moment brighter…”", objectPos: "50% 15%" },
+  { src: "/images/shatakshi-4.jpeg", caption: "“discovering who you are, one day at a time…”", objectPos: "50% 32%" },
+  { src: "/images/shatakshi-5.jpeg", caption: "“I admire you so much, Shatakshi…”", objectPos: "50% 15%" },
+  { src: "/images/shatakshi-6.jpeg", caption: "“simply grateful that our paths crossed…”", objectPos: "50% 18%" },
+  { src: "/images/shatakshi-7.jpeg", caption: "“forever wishing you the happiest birthday ✨”", objectPos: "50% 6%" },
 ];
 
 export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChange }: HeartbeatConfessionProps) {
@@ -310,7 +310,7 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
             className="w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full bg-gradient-to-r from-roseGold to-blushPink shadow-[0_0_20px_rgba(244,160,160,0.8)]"
           />
           <span className="font-playfair text-[10px] sm:text-[11px] tracking-[0.25em] sm:tracking-[0.3em] uppercase text-blushPink/80 truncate">
-            {showFullLetterMode ? "A Letter For Sandhya (Sandy)" : "Listening to My Heart"}
+            {showFullLetterMode ? "A Birthday Letter For Shatakshi" : "A Wish From The Heart"}
           </span>
         </div>
 
@@ -374,10 +374,10 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
             {/* Header Title */}
             <div className="text-center mb-8 sm:mb-12 space-y-2 sm:space-y-3">
               <span className="font-playfair text-[10px] sm:text-xs tracking-[0.35em] text-blushPink uppercase block">
-                From My Heart To Yours
+                A Birthday Wish From My Heart
               </span>
               <h2 className="font-playfair text-3xl sm:text-5xl md:text-6xl font-bold gold-gradient">
-                Sandhya ✦ (Sandy)
+                Happy Birthday, Shatakshi ✦
               </h2>
               <div className="w-[80px] h-[1px] bg-gradient-to-r from-transparent via-roseGold to-transparent mx-auto mt-3" />
             </div>
@@ -401,7 +401,7 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
                     >
                       <Image
                         src={montageImages[montageIndex].src}
-                        alt="Sandhya (Sandy)"
+                        alt="Shatakshi"
                         fill
                         sizes="(max-width: 768px) 100vw, 700px"
                         className="object-cover"
@@ -421,46 +421,42 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
               {/* The User's Letter in Beautiful Typography */}
               <div className="space-y-4 sm:space-y-6 font-cormorant text-lg sm:text-xl md:text-2xl leading-relaxed text-[#3d2a21] ml-2 sm:ml-6 md:ml-8">
                 <p className="font-playfair text-xl sm:text-2xl md:text-3xl font-bold text-[#6a1b29] italic">
-                  Dear Sandhya (Sandy),
+                  Dear Shatakshi,
                 </p>
 
                 <p>
-                  I often find myself lost in thoughts of you, composing a thousand different letters in my mind. There are so many emotions I have carried in my heart lately—heavy and beautiful all at once. Sometimes I just don't know the right way to weave them into words, or if I even have the courage to say them out loud, but my heart needs to speak.
+                  Today is your special day, and I wanted to put into words something I have carried in my heart for a long time. There are so many emotions and thoughts of genuine admiration I hold for you—quiet and beautiful all at once. Sometimes life moves so fast that we forget to tell the most wonderful people just how much they mean to us, but today, I want to make sure you know.
                 </p>
 
-                {/* Yes I Like You & Heartfelt Poem */}
+                {/* Birthday Wish & Heartfelt Tribute */}
                 <div className="my-5 p-5 sm:p-7 rounded-lg bg-[#f5ecdc] border-l-4 border-[#8b3a4a] shadow-sm space-y-4">
                   <p className="font-playfair text-2xl sm:text-3xl font-bold text-[#8b3a4a] italic">
-                    Yes, I like you. ❤️
+                    Wishing You The Happiest Birthday! 🎂✨
                   </p>
                   <p className="font-cormorant text-lg sm:text-xl md:text-2xl italic leading-relaxed text-[#3d2a21]">
-                    For I have come to believe that the deepest bonds are never built on grand confessions, perfect timing, or carefully written plans.
+                    For I have come to believe that the most precious people are those who walk into our lives quietly,
                     <br />
-                    They are built through consistency,
+                    not to make noise, but to bring warmth,
                     <br />
-                    through responsibility,
+                    not to demand the spotlight, but to illuminate everyone around them,
                     <br />
-                    through quiet acts of care repeated day after day.
+                    and who carry genuine kindness like a natural instinct.
                   </p>
                   <p className="font-cormorant text-lg sm:text-xl md:text-2xl italic leading-relaxed text-[#3d2a21]">
-                    Love is not something we plan.
+                    You are one of those rare souls.
                     <br />
-                    It is a blessing that quietly finds its way into our lives.
+                    A blessing to everyone lucky enough to know you.
                     <br />
-                    It is responsibility when leaving would be easier.
+                    May this year give back to you all the warmth, joy, and peace you so selflessly give away.
                     <br />
-                    It is devotion when nobody is watching.
+                    May your laughter always be loud, your burdens always be light,
                     <br />
-                    It is patience when life becomes difficult.
-                    <br />
-                    It is gratitude for a soul that makes the world feel a little kinder.
-                    <br />
-                    And perhaps that is why some people become unforgettable.
+                    and may every step of your journey lead you toward your highest dreams.
                   </p>
                 </div>
 
                 <p>
-                  Watching your journey at <span className="font-bold text-[#8b3a4a]">IIT Jodhpur</span>, seeing how hard you work with such a brilliant mind, and yet how tenderly you hold on to your humility and kindness makes me admire you even more. You never boast; you just quietly shine.
+                  Watching your journey, seeing how hard you work with such a brilliant mind, and yet how tenderly you hold on to your humility and kindness makes me admire you even more. You never boast; you just quietly shine.
                 </p>
 
                 <p>
@@ -481,7 +477,7 @@ export default function HeartbeatConfession({ isOpen, onClose, onFullLetterChang
 
                 <div className="py-3 sm:py-4 my-2 text-center border-y border-[#d8c3a1]/60">
                   <p className="font-playfair text-2xl sm:text-3xl md:text-4xl font-bold text-[#8b3a4a] tracking-wide">
-                    If I were given a hundred lifetimes and had to choose all over again, I would choose to meet you every single time, without a second thought. ❤️
+                    May all the prayers and blessings of this universe surround you with peace, happiness, and light, today and always. ✨
                   </p>
                 </div>
 

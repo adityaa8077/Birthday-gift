@@ -67,7 +67,7 @@ export default function DreamsWorthChasing() {
           className="text-center mt-16"
         >
           <p className="font-cormorant text-2xl md:text-3xl text-warmGold italic">
-            If I were given a hundred lifetimes, I would choose to know you every single time. ✨
+            May every prayer whispered for your happiness come true, and may life always bless you with endless joy, peace, and light. ✨
           </p>
         </motion.div>
 
